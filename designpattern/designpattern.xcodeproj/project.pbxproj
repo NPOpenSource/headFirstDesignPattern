@@ -21,6 +21,8 @@
 		24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C0C2779D33900B97C83 /* CurrentConditionsDisplayNew.m */; };
 		24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C0D2779D33900B97C83 /* CurrentConditionsDisplay.m */; };
 		24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C0E2779D33900B97C83 /* WeatherDataNew.m */; };
+		24840C182779D43100B97C83 /* testcelue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C172779D43100B97C83 /* testcelue.m */; };
+		24840C1C2779D4F600B97C83 /* testObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C1B2779D4F600B97C83 /* testObservable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,10 @@
 		24840C0D2779D33900B97C83 /* CurrentConditionsDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentConditionsDisplay.m; sourceTree = "<group>"; };
 		24840C0E2779D33900B97C83 /* WeatherDataNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataNew.m; sourceTree = "<group>"; };
 		24840C0F2779D33900B97C83 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		24840C162779D43100B97C83 /* testcelue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testcelue.h; sourceTree = "<group>"; };
+		24840C172779D43100B97C83 /* testcelue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testcelue.m; sourceTree = "<group>"; };
+		24840C1A2779D4F600B97C83 /* testObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testObservable.h; sourceTree = "<group>"; };
+		24840C1B2779D4F600B97C83 /* testObservable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testObservable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 			children = (
 				24840C012779D33900B97C83 /* README.md */,
 				24840C022779D33900B97C83 /* 气象站 */,
+				24840C1A2779D4F600B97C83 /* testObservable.h */,
+				24840C1B2779D4F600B97C83 /* testObservable.m */,
 			);
 			path = "观察者模式";
 			sourceTree = "<group>";
@@ -124,6 +132,8 @@
 			children = (
 				24840BE42779D32F00B97C83 /* duck */,
 				24840BF72779D32F00B97C83 /* README.md */,
+				24840C162779D43100B97C83 /* testcelue.h */,
+				24840C172779D43100B97C83 /* testcelue.m */,
 			);
 			path = "策略模式";
 			sourceTree = "<group>";
@@ -229,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
@@ -237,6 +248,7 @@
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
+				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
 				24840BFD2779D32F00B97C83 /* MiniDuck.m in Sources */,
