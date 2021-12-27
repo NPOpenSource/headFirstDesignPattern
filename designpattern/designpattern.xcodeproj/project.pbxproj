@@ -25,6 +25,38 @@
 /* Begin PBXFileReference section */
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24840BA62779D24D00B97C83 /* Quack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		24840BA72779D24D00B97C83 /* MiniDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiniDuck.h; sourceTree = "<group>"; };
+		24840BA82779D24D00B97C83 /* FlyNoWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		24840BA92779D24D00B97C83 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		24840BAA2779D24D00B97C83 /* FlyyWithWings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyyWithWings.m; sourceTree = "<group>"; };
+		24840BAB2779D24D00B97C83 /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		24840BAC2779D24D00B97C83 /* MuteQuack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		24840BAD2779D24D00B97C83 /* Squeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		24840BAE2779D24D00B97C83 /* ModelDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelDuck.h; sourceTree = "<group>"; };
+		24840BAF2779D24D00B97C83 /* MiniDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniDuck.m; sourceTree = "<group>"; };
+		24840BB02779D24D00B97C83 /* Quack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		24840BB12779D24D00B97C83 /* Duck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		24840BB22779D24D00B97C83 /* QuackBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		24840BB32779D24D00B97C83 /* FlyNoWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		24840BB42779D24D00B97C83 /* MuteQuack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		24840BB52779D24D00B97C83 /* FlyyWithWings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyyWithWings.h; sourceTree = "<group>"; };
+		24840BB62779D24D00B97C83 /* ModelDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelDuck.m; sourceTree = "<group>"; };
+		24840BB72779D24D00B97C83 /* Squeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		24840BB82779D25F00B97C83 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../策略模式/README.md"; sourceTree = "<group>"; };
+		24840BBA2779D27F00B97C83 /* WeatherData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		24840BBB2779D27F00B97C83 /* Observerable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Observerable.m; sourceTree = "<group>"; };
+		24840BBC2779D27F00B97C83 /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		24840BBD2779D27F00B97C83 /* WeatherDataNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherDataNew.h; sourceTree = "<group>"; };
+		24840BBE2779D27F00B97C83 /* DisplayElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayElement.h; sourceTree = "<group>"; };
+		24840BBF2779D27F00B97C83 /* CurrentConditionsDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentConditionsDisplay.h; sourceTree = "<group>"; };
+		24840BC02779D27F00B97C83 /* CurrentConditionsDisplayNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentConditionsDisplayNew.h; sourceTree = "<group>"; };
+		24840BC12779D27F00B97C83 /* Observerable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observerable.h; sourceTree = "<group>"; };
+		24840BC22779D27F00B97C83 /* WeatherData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		24840BC32779D27F00B97C83 /* CurrentConditionsDisplayNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentConditionsDisplayNew.m; sourceTree = "<group>"; };
+		24840BC42779D27F00B97C83 /* CurrentConditionsDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentConditionsDisplay.m; sourceTree = "<group>"; };
+		24840BC52779D27F00B97C83 /* WeatherDataNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherDataNew.m; sourceTree = "<group>"; };
+		24840BC62779D27F00B97C83 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +73,7 @@
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
+				24840BA42779D22300B97C83 /* 策略模式 */,
 				24840BA32779D1B400B97C83 /* 观察者模式 */,
 				24840B9A2779D17A00B97C83 /* designpattern */,
 				24840B992779D17A00B97C83 /* Products */,
@@ -66,8 +99,65 @@
 		24840BA32779D1B400B97C83 /* 观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				24840BB92779D27F00B97C83 /* 气象站 */,
 			);
 			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		24840BA42779D22300B97C83 /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24840BB82779D25F00B97C83 /* README.md */,
+				24840BA52779D24D00B97C83 /* duck */,
+			);
+			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		24840BA52779D24D00B97C83 /* duck */ = {
+			isa = PBXGroup;
+			children = (
+				24840BA62779D24D00B97C83 /* Quack.m */,
+				24840BA72779D24D00B97C83 /* MiniDuck.h */,
+				24840BA82779D24D00B97C83 /* FlyNoWay.m */,
+				24840BA92779D24D00B97C83 /* Duck.h */,
+				24840BAA2779D24D00B97C83 /* FlyyWithWings.m */,
+				24840BAB2779D24D00B97C83 /* FlyBehavior.h */,
+				24840BAC2779D24D00B97C83 /* MuteQuack.m */,
+				24840BAD2779D24D00B97C83 /* Squeak.m */,
+				24840BAE2779D24D00B97C83 /* ModelDuck.h */,
+				24840BAF2779D24D00B97C83 /* MiniDuck.m */,
+				24840BB02779D24D00B97C83 /* Quack.h */,
+				24840BB12779D24D00B97C83 /* Duck.m */,
+				24840BB22779D24D00B97C83 /* QuackBehavior.h */,
+				24840BB32779D24D00B97C83 /* FlyNoWay.h */,
+				24840BB42779D24D00B97C83 /* MuteQuack.h */,
+				24840BB52779D24D00B97C83 /* FlyyWithWings.h */,
+				24840BB62779D24D00B97C83 /* ModelDuck.m */,
+				24840BB72779D24D00B97C83 /* Squeak.h */,
+			);
+			name = duck;
+			path = "../../策略模式/策略模式/策略模式/duck";
+			sourceTree = "<group>";
+		};
+		24840BB92779D27F00B97C83 /* 气象站 */ = {
+			isa = PBXGroup;
+			children = (
+				24840BBA2779D27F00B97C83 /* WeatherData.m */,
+				24840BBB2779D27F00B97C83 /* Observerable.m */,
+				24840BBC2779D27F00B97C83 /* Observer.h */,
+				24840BBD2779D27F00B97C83 /* WeatherDataNew.h */,
+				24840BBE2779D27F00B97C83 /* DisplayElement.h */,
+				24840BBF2779D27F00B97C83 /* CurrentConditionsDisplay.h */,
+				24840BC02779D27F00B97C83 /* CurrentConditionsDisplayNew.h */,
+				24840BC12779D27F00B97C83 /* Observerable.h */,
+				24840BC22779D27F00B97C83 /* WeatherData.h */,
+				24840BC32779D27F00B97C83 /* CurrentConditionsDisplayNew.m */,
+				24840BC42779D27F00B97C83 /* CurrentConditionsDisplay.m */,
+				24840BC52779D27F00B97C83 /* WeatherDataNew.m */,
+				24840BC62779D27F00B97C83 /* Subject.h */,
+			);
+			name = "气象站";
+			path = "../../观察者模式/观察者模式/观察者模式/气象站";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
