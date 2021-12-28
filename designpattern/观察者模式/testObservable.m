@@ -5,7 +5,7 @@
 //  Created by glodon on 2021/12/27.
 //
 
-#import "testObservable.h"
+#import <Foundation/Foundation.h>
 #import "CurrentConditionsDisplay.h"
 #import "WeatherData.h"
 #import "WeatherDataNew.h"

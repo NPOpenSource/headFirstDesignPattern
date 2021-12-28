@@ -23,6 +23,12 @@
 		24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C0E2779D33900B97C83 /* WeatherDataNew.m */; };
 		24840C182779D43100B97C83 /* testcelue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C172779D43100B97C83 /* testcelue.m */; };
 		24840C1C2779D4F600B97C83 /* testObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C1B2779D4F600B97C83 /* testObservable.m */; };
+		24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50892779D89E000197BF /* testZhuangshi.m */; };
+		24BD509A2779DF0C000197BF /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50992779DF0C000197BF /* Beverage.m */; };
+		24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD509E2779DF6F000197BF /* CondimentDecorator.m */; };
+		24BD50A52779DF9E000197BF /* Espresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50A42779DF9E000197BF /* Espresso.m */; };
+		24BD50A92779E00B000197BF /* HouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50A82779E00B000197BF /* HouseBlend.m */; };
+		24BD50AD2779E078000197BF /* Mocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50AC2779E078000197BF /* Mocha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,10 +79,21 @@
 		24840C0D2779D33900B97C83 /* CurrentConditionsDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentConditionsDisplay.m; sourceTree = "<group>"; };
 		24840C0E2779D33900B97C83 /* WeatherDataNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDataNew.m; sourceTree = "<group>"; };
 		24840C0F2779D33900B97C83 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
-		24840C162779D43100B97C83 /* testcelue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testcelue.h; sourceTree = "<group>"; };
 		24840C172779D43100B97C83 /* testcelue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testcelue.m; sourceTree = "<group>"; };
-		24840C1A2779D4F600B97C83 /* testObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testObservable.h; sourceTree = "<group>"; };
 		24840C1B2779D4F600B97C83 /* testObservable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testObservable.m; sourceTree = "<group>"; };
+		24BD50892779D89E000197BF /* testZhuangshi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testZhuangshi.m; sourceTree = "<group>"; };
+		24BD50932779D8E0000197BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24BD50942779D8EA000197BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		24BD50982779DF0C000197BF /* Beverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Beverage.h; sourceTree = "<group>"; };
+		24BD50992779DF0C000197BF /* Beverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Beverage.m; sourceTree = "<group>"; };
+		24BD509D2779DF6F000197BF /* CondimentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CondimentDecorator.h; sourceTree = "<group>"; };
+		24BD509E2779DF6F000197BF /* CondimentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CondimentDecorator.m; sourceTree = "<group>"; };
+		24BD50A32779DF9E000197BF /* Espresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Espresso.h; sourceTree = "<group>"; };
+		24BD50A42779DF9E000197BF /* Espresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Espresso.m; sourceTree = "<group>"; };
+		24BD50A72779E00B000197BF /* HouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseBlend.h; sourceTree = "<group>"; };
+		24BD50A82779E00B000197BF /* HouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseBlend.m; sourceTree = "<group>"; };
+		24BD50AB2779E078000197BF /* Mocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mocha.h; sourceTree = "<group>"; };
+		24BD50AC2779E078000197BF /* Mocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mocha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +110,8 @@
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
+				24BD50942779D8EA000197BF /* README.md */,
+				24BD50872779D892000197BF /* 装饰模式 */,
 				24840BA42779D22300B97C83 /* 策略模式 */,
 				24840BA32779D1B400B97C83 /* 观察者模式 */,
 				24840B9A2779D17A00B97C83 /* designpattern */,
@@ -121,7 +140,6 @@
 			children = (
 				24840C012779D33900B97C83 /* README.md */,
 				24840C022779D33900B97C83 /* 气象站 */,
-				24840C1A2779D4F600B97C83 /* testObservable.h */,
 				24840C1B2779D4F600B97C83 /* testObservable.m */,
 			);
 			path = "观察者模式";
@@ -132,7 +150,6 @@
 			children = (
 				24840BE42779D32F00B97C83 /* duck */,
 				24840BF72779D32F00B97C83 /* README.md */,
-				24840C162779D43100B97C83 /* testcelue.h */,
 				24840C172779D43100B97C83 /* testcelue.m */,
 			);
 			path = "策略模式";
@@ -183,6 +200,41 @@
 			path = "气象站";
 			sourceTree = "<group>";
 		};
+		24BD50872779D892000197BF /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24BD50952779DE0A000197BF /* Beverage */,
+				24BD50932779D8E0000197BF /* README.md */,
+				24BD50892779D89E000197BF /* testZhuangshi.m */,
+			);
+			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		24BD50952779DE0A000197BF /* Beverage */ = {
+			isa = PBXGroup;
+			children = (
+				24BD50A32779DF9E000197BF /* Espresso.h */,
+				24BD50A42779DF9E000197BF /* Espresso.m */,
+				24BD50A72779E00B000197BF /* HouseBlend.h */,
+				24BD50A82779E00B000197BF /* HouseBlend.m */,
+				24BD50A12779DF7F000197BF /* Condiment */,
+				24BD50982779DF0C000197BF /* Beverage.h */,
+				24BD50992779DF0C000197BF /* Beverage.m */,
+			);
+			path = Beverage;
+			sourceTree = "<group>";
+		};
+		24BD50A12779DF7F000197BF /* Condiment */ = {
+			isa = PBXGroup;
+			children = (
+				24BD509D2779DF6F000197BF /* CondimentDecorator.h */,
+				24BD509E2779DF6F000197BF /* CondimentDecorator.m */,
+				24BD50AB2779E078000197BF /* Mocha.h */,
+				24BD50AC2779E078000197BF /* Mocha.m */,
+			);
+			path = Condiment;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = com.open.design;
 				TargetAttributes = {
 					24840B972779D17A00B97C83 = {
 						CreatedOnToolsVersion = 12.4;
@@ -243,16 +296,22 @@
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
+				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
+				24BD50A92779E00B000197BF /* HouseBlend.m in Sources */,
 				24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
+				24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */,
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
 				24840BFD2779D32F00B97C83 /* MiniDuck.m in Sources */,
+				24BD50AD2779E078000197BF /* Mocha.m in Sources */,
 				24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */,
+				24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */,
+				24BD50A52779DF9E000197BF /* Espresso.m in Sources */,
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,
 			);

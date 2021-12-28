@@ -1,15 +1,15 @@
 //
-//  testObservable.h
+//  HouseBlend.h
 //  designpattern
 //
 //  Created by glodon on 2021/12/27.
 //
 
-#import <Foundation/Foundation.h>
+#import "Beverage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface testObservable : NSObject
+@interface HouseBlend : Beverage
 
 @end
 
