@@ -39,6 +39,12 @@
 
 * [观察者模式](./designpattern/观察者模式)
 
-* [观察者模式](./designpattern/装饰模式)
+* [装饰模式](./designpattern/装饰模式)
 
-* [观察者模式](./designpattern/工厂模式)
+* [工厂模式](./designpattern/工厂模式)
+
+* [单例模式](./designpattern/单例模式)
+
+* [命令模式](./designpattern/命令模式)
+
+* [适配器模式](./designpattern/适配器模式)
