@@ -22,7 +22,7 @@ static void beforeMain(void) {
 #import "OperationMultiply.h"
 #import "OperationSubStract.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void testOperationMain(void) {
     Context * context = [[Context alloc]init];
     context.strategy = [OperationAdd new];

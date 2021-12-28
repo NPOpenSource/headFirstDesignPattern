@@ -34,6 +34,8 @@
 		24541435277B2C6C00DFC18E /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454142E277B2C6B00DFC18E /* Context.m */; };
 		24541436277B2C6C00DFC18E /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541431277B2C6C00DFC18E /* OperationAdd.m */; };
 		24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541433277B2C6C00DFC18E /* OperationSubStract.m */; };
+		24541449277B2F2900DFC18E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541445277B2F2900DFC18E /* User.m */; };
+		2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541447277B2F2900DFC18E /* WeChatServer.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -132,6 +134,12 @@
 		24541432277B2C6C00DFC18E /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
 		24541433277B2C6C00DFC18E /* OperationSubStract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSubStract.m; sourceTree = "<group>"; };
 		2454143E277B2DB500DFC18E /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		24541443277B2F2800DFC18E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		24541445277B2F2900DFC18E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		24541446277B2F2900DFC18E /* ObserverNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverNew.h; sourceTree = "<group>"; };
+		24541447277B2F2900DFC18E /* WeChatServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatServer.m; sourceTree = "<group>"; };
+		24541448277B2F2900DFC18E /* WeChatServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatServer.h; sourceTree = "<group>"; };
+		2454144C277B2F7C00DFC18E /* ObserverableNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverableNew.h; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -330,6 +338,19 @@
 			path = "计算器";
 			sourceTree = "<group>";
 		};
+		24541442277B2F1700DFC18E /* 论坛 */ = {
+			isa = PBXGroup;
+			children = (
+				2454144C277B2F7C00DFC18E /* ObserverableNew.h */,
+				24541446277B2F2900DFC18E /* ObserverNew.h */,
+				24541443277B2F2800DFC18E /* User.h */,
+				24541445277B2F2900DFC18E /* User.m */,
+				24541448277B2F2900DFC18E /* WeChatServer.h */,
+				24541447277B2F2900DFC18E /* WeChatServer.m */,
+			);
+			path = "论坛";
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +387,7 @@
 			isa = PBXGroup;
 			children = (
 				24840C012779D33900B97C83 /* README.md */,
+				24541442277B2F1700DFC18E /* 论坛 */,
 				24840C022779D33900B97C83 /* 气象站 */,
 				24840C1B2779D4F600B97C83 /* testObservable.m */,
 			);
@@ -521,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24541449277B2F2900DFC18E /* User.m in Sources */,
 				24541419277B22B900DFC18E /* TestRemote.m in Sources */,
 				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
 				245413B8277AA54800DFC18E /* Pizza.m in Sources */,
@@ -542,6 +565,7 @@
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
 				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
+				2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */,
 				24541435277B2C6C00DFC18E /* Context.m in Sources */,
 				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,

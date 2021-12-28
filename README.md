@@ -35,7 +35,10 @@
 
 
 
-[策略模式](./designpattern/策略模式)
-[观察者模式](./designpattern/观察者模式)
-[观察者模式](./designpattern/装饰模式)
-[观察者模式](./designpattern/工厂模式)
+* [策略模式](./designpattern/策略模式)
+
+* [观察者模式](./designpattern/观察者模式)
+
+* [观察者模式](./designpattern/装饰模式)
+
+* [观察者模式](./designpattern/工厂模式)
