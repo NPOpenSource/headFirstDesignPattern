@@ -10,7 +10,7 @@
 #import "HouseBlend.h"
 #import "Beverage.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeMain(void) {
     Beverage *beverage = [Espresso new];
     NSLog(@"%@ $%.2f",beverage.desc,beverage.cost);

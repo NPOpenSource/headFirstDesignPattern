@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413B2277AA52000DFC18E /* SimplePizzaFactory.m */; };
+		245413B8277AA54800DFC18E /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413B7277AA54800DFC18E /* Pizza.m */; };
+		245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413BB277AA5BC00DFC18E /* CheesePizza.m */; };
+		245413C0277AA5CF00DFC18E /* PepperoniPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413BF277AA5CF00DFC18E /* PepperoniPizza.m */; };
+		245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413C9277AA68800DFC18E /* SimplePizzaStore.m */; };
+		245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413CE277AACD000DFC18E /* NYStyleCheesePizza.m */; };
+		245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413D2277AAD4A00DFC18E /* ChicagoStleCheesePizza.m */; };
+		245413D7277AAECA00DFC18E /* PizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413D6277AAECA00DFC18E /* PizzaStore.m */; };
+		245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413DA277AAF9500DFC18E /* NYPizzaStore.m */; };
+		245413DF277AB02900DFC18E /* TestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413DE277AB02900DFC18E /* TestFactory.m */; };
+		245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413E3277AB0F200DFC18E /* ChicagoPizzaStore.m */; };
+		245413ED277AE65D00DFC18E /* ThinCrustDough.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413EC277AE65D00DFC18E /* ThinCrustDough.m */; };
+		245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413F0277AE6D100DFC18E /* MarinaraSouce.m */; };
+		245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413F4277AE9BA00DFC18E /* CheesePizzaC.m */; };
+		245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413F8277AEE3400DFC18E /* CHPizzaStore.m */; };
+		245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413FC277AEE8600DFC18E /* ChPizzaIngredientFactory.m */; };
+		24541401277AEF9B00DFC18E /* TestFactoryChou.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541400277AEF9B00DFC18E /* TestFactoryChou.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -44,6 +61,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		245413AE277AA33100DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		245413B1277AA52000DFC18E /* SimplePizzaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
+		245413B2277AA52000DFC18E /* SimplePizzaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaFactory.m; sourceTree = "<group>"; };
+		245413B6277AA54800DFC18E /* Pizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		245413B7277AA54800DFC18E /* Pizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
+		245413BA277AA5BC00DFC18E /* CheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheesePizza.h; sourceTree = "<group>"; };
+		245413BB277AA5BC00DFC18E /* CheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheesePizza.m; sourceTree = "<group>"; };
+		245413BE277AA5CF00DFC18E /* PepperoniPizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PepperoniPizza.h; sourceTree = "<group>"; };
+		245413BF277AA5CF00DFC18E /* PepperoniPizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PepperoniPizza.m; sourceTree = "<group>"; };
+		245413C8277AA68800DFC18E /* SimplePizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePizzaStore.h; sourceTree = "<group>"; };
+		245413C9277AA68800DFC18E /* SimplePizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaStore.m; sourceTree = "<group>"; };
+		245413CD277AACD000DFC18E /* NYStyleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYStyleCheesePizza.h; sourceTree = "<group>"; };
+		245413CE277AACD000DFC18E /* NYStyleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYStyleCheesePizza.m; sourceTree = "<group>"; };
+		245413D1277AAD4A00DFC18E /* ChicagoStleCheesePizza.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoStleCheesePizza.h; sourceTree = "<group>"; };
+		245413D2277AAD4A00DFC18E /* ChicagoStleCheesePizza.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoStleCheesePizza.m; sourceTree = "<group>"; };
+		245413D5277AAECA00DFC18E /* PizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaStore.h; sourceTree = "<group>"; };
+		245413D6277AAECA00DFC18E /* PizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizzaStore.m; sourceTree = "<group>"; };
+		245413D9277AAF9500DFC18E /* NYPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYPizzaStore.h; sourceTree = "<group>"; };
+		245413DA277AAF9500DFC18E /* NYPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYPizzaStore.m; sourceTree = "<group>"; };
+		245413DE277AB02900DFC18E /* TestFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFactory.m; sourceTree = "<group>"; };
+		245413E2277AB0F200DFC18E /* ChicagoPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicagoPizzaStore.h; sourceTree = "<group>"; };
+		245413E3277AB0F200DFC18E /* ChicagoPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoPizzaStore.m; sourceTree = "<group>"; };
+		245413E8277AE58F00DFC18E /* PizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PizzaIngredientFactory.h; sourceTree = "<group>"; };
+		245413E9277AE5F900DFC18E /* Dough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dough.h; sourceTree = "<group>"; };
+		245413EA277AE60200DFC18E /* Sauce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sauce.h; sourceTree = "<group>"; };
+		245413EB277AE65D00DFC18E /* ThinCrustDough.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinCrustDough.h; sourceTree = "<group>"; };
+		245413EC277AE65D00DFC18E /* ThinCrustDough.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinCrustDough.m; sourceTree = "<group>"; };
+		245413EF277AE6D100DFC18E /* MarinaraSouce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarinaraSouce.h; sourceTree = "<group>"; };
+		245413F0277AE6D100DFC18E /* MarinaraSouce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarinaraSouce.m; sourceTree = "<group>"; };
+		245413F3277AE9BA00DFC18E /* CheesePizzaC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheesePizzaC.h; sourceTree = "<group>"; };
+		245413F4277AE9BA00DFC18E /* CheesePizzaC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheesePizzaC.m; sourceTree = "<group>"; };
+		245413F7277AEE3400DFC18E /* CHPizzaStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHPizzaStore.h; sourceTree = "<group>"; };
+		245413F8277AEE3400DFC18E /* CHPizzaStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHPizzaStore.m; sourceTree = "<group>"; };
+		245413FB277AEE8600DFC18E /* ChPizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChPizzaIngredientFactory.h; sourceTree = "<group>"; };
+		245413FC277AEE8600DFC18E /* ChPizzaIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChPizzaIngredientFactory.m; sourceTree = "<group>"; };
+		24541400277AEF9B00DFC18E /* TestFactoryChou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFactoryChou.m; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -107,10 +160,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245413AD277AA30300DFC18E /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				245413AE277AA33100DFC18E /* README.md */,
+				245413B0277AA4F700DFC18E /* Pizza */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		245413AF277AA4E600DFC18E /* 简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				245413B1277AA52000DFC18E /* SimplePizzaFactory.h */,
+				245413B2277AA52000DFC18E /* SimplePizzaFactory.m */,
+				245413C8277AA68800DFC18E /* SimplePizzaStore.h */,
+				245413C9277AA68800DFC18E /* SimplePizzaStore.m */,
+			);
+			path = "简单工厂模式";
+			sourceTree = "<group>";
+		};
+		245413B0277AA4F700DFC18E /* Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				245413E7277AE55E00DFC18E /* 抽象工厂 */,
+				245413CC277AAB2600DFC18E /* 工厂模式 */,
+				245413B6277AA54800DFC18E /* Pizza.h */,
+				245413B7277AA54800DFC18E /* Pizza.m */,
+				245413BA277AA5BC00DFC18E /* CheesePizza.h */,
+				245413BB277AA5BC00DFC18E /* CheesePizza.m */,
+				245413BE277AA5CF00DFC18E /* PepperoniPizza.h */,
+				245413BF277AA5CF00DFC18E /* PepperoniPizza.m */,
+				245413AF277AA4E600DFC18E /* 简单工厂模式 */,
+			);
+			path = Pizza;
+			sourceTree = "<group>";
+		};
+		245413CC277AAB2600DFC18E /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				245413CD277AACD000DFC18E /* NYStyleCheesePizza.h */,
+				245413CE277AACD000DFC18E /* NYStyleCheesePizza.m */,
+				245413D1277AAD4A00DFC18E /* ChicagoStleCheesePizza.h */,
+				245413D2277AAD4A00DFC18E /* ChicagoStleCheesePizza.m */,
+				245413D5277AAECA00DFC18E /* PizzaStore.h */,
+				245413D6277AAECA00DFC18E /* PizzaStore.m */,
+				245413D9277AAF9500DFC18E /* NYPizzaStore.h */,
+				245413DA277AAF9500DFC18E /* NYPizzaStore.m */,
+				245413E2277AB0F200DFC18E /* ChicagoPizzaStore.h */,
+				245413E3277AB0F200DFC18E /* ChicagoPizzaStore.m */,
+				245413DE277AB02900DFC18E /* TestFactory.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		245413E7277AE55E00DFC18E /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				245413E8277AE58F00DFC18E /* PizzaIngredientFactory.h */,
+				245413E9277AE5F900DFC18E /* Dough.h */,
+				245413EA277AE60200DFC18E /* Sauce.h */,
+				245413EB277AE65D00DFC18E /* ThinCrustDough.h */,
+				245413EC277AE65D00DFC18E /* ThinCrustDough.m */,
+				245413EF277AE6D100DFC18E /* MarinaraSouce.h */,
+				245413F0277AE6D100DFC18E /* MarinaraSouce.m */,
+				245413F3277AE9BA00DFC18E /* CheesePizzaC.h */,
+				245413F4277AE9BA00DFC18E /* CheesePizzaC.m */,
+				245413F7277AEE3400DFC18E /* CHPizzaStore.h */,
+				245413F8277AEE3400DFC18E /* CHPizzaStore.m */,
+				245413FB277AEE8600DFC18E /* ChPizzaIngredientFactory.h */,
+				245413FC277AEE8600DFC18E /* ChPizzaIngredientFactory.m */,
+				24541400277AEF9B00DFC18E /* TestFactoryChou.m */,
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
+				245413AD277AA30300DFC18E /* 工厂模式 */,
 				24BD50872779D892000197BF /* 装饰模式 */,
 				24840BA42779D22300B97C83 /* 策略模式 */,
 				24840BA32779D1B400B97C83 /* 观察者模式 */,
@@ -292,28 +421,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
+				245413B8277AA54800DFC18E /* Pizza.m in Sources */,
+				245413ED277AE65D00DFC18E /* ThinCrustDough.m in Sources */,
+				245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */,
 				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
+				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
+				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
+				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
 				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
 				24BD50A92779E00B000197BF /* HouseBlend.m in Sources */,
 				24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */,
+				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
+				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
+				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
 				24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */,
+				245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */,
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
+				245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */,
 				24840BFD2779D32F00B97C83 /* MiniDuck.m in Sources */,
 				24BD50AD2779E078000197BF /* Mocha.m in Sources */,
 				24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */,
+				24541401277AEF9B00DFC18E /* TestFactoryChou.m in Sources */,
+				245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */,
 				24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */,
 				24BD50A52779DF9E000197BF /* Espresso.m in Sources */,
+				245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */,
+				245413D7277AAECA00DFC18E /* PizzaStore.m in Sources */,
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,
+				245413C0277AA5CF00DFC18E /* PepperoniPizza.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
