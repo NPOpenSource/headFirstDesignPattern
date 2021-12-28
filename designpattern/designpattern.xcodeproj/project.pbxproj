@@ -36,6 +36,11 @@
 		24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541433277B2C6C00DFC18E /* OperationSubStract.m */; };
 		24541449277B2F2900DFC18E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541445277B2F2900DFC18E /* User.m */; };
 		2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541447277B2F2900DFC18E /* WeChatServer.m */; };
+		2454145D277B321700DFC18E /* MilkFoamDecrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541452277B321600DFC18E /* MilkFoamDecrator.m */; };
+		2454145E277B321700DFC18E /* SugarDecrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541455277B321600DFC18E /* SugarDecrator.m */; };
+		2454145F277B321700DFC18E /* MilkPriceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541459277B321700DFC18E /* MilkPriceDecorator.m */; };
+		24541460277B321700DFC18E /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454145A277B321700DFC18E /* Decorator.m */; };
+		24541461277B321700DFC18E /* SimpleCoffce.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454145C277B321700DFC18E /* SimpleCoffce.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -140,6 +145,18 @@
 		24541447277B2F2900DFC18E /* WeChatServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatServer.m; sourceTree = "<group>"; };
 		24541448277B2F2900DFC18E /* WeChatServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatServer.h; sourceTree = "<group>"; };
 		2454144C277B2F7C00DFC18E /* ObserverableNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverableNew.h; sourceTree = "<group>"; };
+		24541452277B321600DFC18E /* MilkFoamDecrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MilkFoamDecrator.m; sourceTree = "<group>"; };
+		24541453277B321600DFC18E /* MilkPriceDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilkPriceDecorator.h; sourceTree = "<group>"; };
+		24541454277B321600DFC18E /* SugarDecrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarDecrator.h; sourceTree = "<group>"; };
+		24541455277B321600DFC18E /* SugarDecrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarDecrator.m; sourceTree = "<group>"; };
+		24541456277B321700DFC18E /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		24541457277B321700DFC18E /* Coffce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coffce.h; sourceTree = "<group>"; };
+		24541458277B321700DFC18E /* MilkFoamDecrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MilkFoamDecrator.h; sourceTree = "<group>"; };
+		24541459277B321700DFC18E /* MilkPriceDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MilkPriceDecorator.m; sourceTree = "<group>"; };
+		2454145A277B321700DFC18E /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		2454145B277B321700DFC18E /* SimpleCoffce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoffce.h; sourceTree = "<group>"; };
+		2454145C277B321700DFC18E /* SimpleCoffce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoffce.m; sourceTree = "<group>"; };
+		24541463277B32BC00DFC18E /* 1682758-c4b5970524663587.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-c4b5970524663587.png"; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -351,6 +368,24 @@
 			path = "论坛";
 			sourceTree = "<group>";
 		};
+		24541451277B320200DFC18E /* Coffce */ = {
+			isa = PBXGroup;
+			children = (
+				24541457277B321700DFC18E /* Coffce.h */,
+				24541456277B321700DFC18E /* Decorator.h */,
+				2454145A277B321700DFC18E /* Decorator.m */,
+				24541458277B321700DFC18E /* MilkFoamDecrator.h */,
+				24541452277B321600DFC18E /* MilkFoamDecrator.m */,
+				24541453277B321600DFC18E /* MilkPriceDecorator.h */,
+				24541459277B321700DFC18E /* MilkPriceDecorator.m */,
+				2454145B277B321700DFC18E /* SimpleCoffce.h */,
+				2454145C277B321700DFC18E /* SimpleCoffce.m */,
+				24541454277B321600DFC18E /* SugarDecrator.h */,
+				24541455277B321600DFC18E /* SugarDecrator.m */,
+			);
+			path = Coffce;
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
@@ -360,8 +395,8 @@
 				24541405277B07A400DFC18E /* 单例模式 */,
 				245413AD277AA30300DFC18E /* 工厂模式 */,
 				24BD50872779D892000197BF /* 装饰模式 */,
-				24840BA42779D22300B97C83 /* 策略模式 */,
 				24840BA32779D1B400B97C83 /* 观察者模式 */,
+				24840BA42779D22300B97C83 /* 策略模式 */,
 				24840B9A2779D17A00B97C83 /* designpattern */,
 				24840B992779D17A00B97C83 /* Products */,
 			);
@@ -454,8 +489,10 @@
 		24BD50872779D892000197BF /* 装饰模式 */ = {
 			isa = PBXGroup;
 			children = (
+				24541451277B320200DFC18E /* Coffce */,
 				24BD50952779DE0A000197BF /* Beverage */,
 				24BD50932779D8E0000197BF /* README.md */,
+				24541463277B32BC00DFC18E /* 1682758-c4b5970524663587.png */,
 				24BD50892779D89E000197BF /* testZhuangshi.m */,
 			);
 			path = "装饰模式";
@@ -548,6 +585,7 @@
 				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
 				245413B8277AA54800DFC18E /* Pizza.m in Sources */,
 				245413ED277AE65D00DFC18E /* ThinCrustDough.m in Sources */,
+				2454145D277B321700DFC18E /* MilkFoamDecrator.m in Sources */,
 				245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */,
 				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
@@ -559,9 +597,11 @@
 				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
 				24BD50A92779E00B000197BF /* HouseBlend.m in Sources */,
 				24541422277B245F00DFC18E /* GarageDoorOpenCommand.m in Sources */,
+				24541461277B321700DFC18E /* SimpleCoffce.m in Sources */,
 				24541434277B2C6C00DFC18E /* OperationMultiply.m in Sources */,
 				24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */,
 				24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */,
+				2454145E277B321700DFC18E /* SugarDecrator.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
 				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
@@ -577,6 +617,7 @@
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
+				2454145F277B321700DFC18E /* MilkPriceDecorator.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
 				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
 				2454140D277B0DC800DFC18E /* Light.m in Sources */,
@@ -594,6 +635,7 @@
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,
 				245413C0277AA5CF00DFC18E /* PepperoniPizza.m in Sources */,
+				24541460277B321700DFC18E /* Decorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

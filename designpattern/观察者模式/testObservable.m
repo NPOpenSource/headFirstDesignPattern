@@ -23,7 +23,7 @@ static void beforeMain(void) {
 
 #import "WeChatServer.h"
 #import "User.h"
-__attribute__((constructor))
+//__attribute__((constructor))
 static void testBBSService(void) {
     WeChatServer * server=  [WeChatServer new];
     User * userOne = [User new];
