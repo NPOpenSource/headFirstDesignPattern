@@ -24,6 +24,16 @@
 		245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413F8277AEE3400DFC18E /* CHPizzaStore.m */; };
 		245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413FC277AEE8600DFC18E /* ChPizzaIngredientFactory.m */; };
 		24541401277AEF9B00DFC18E /* TestFactoryChou.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541400277AEF9B00DFC18E /* TestFactoryChou.m */; };
+		2454140D277B0DC800DFC18E /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454140C277B0DC800DFC18E /* Light.m */; };
+		24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541410277B0E1400DFC18E /* LightOnCommand.m */; };
+		24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541414277B0EF400DFC18E /* SimpleRemoteControl.m */; };
+		24541419277B22B900DFC18E /* TestRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541418277B22B900DFC18E /* TestRemote.m */; };
+		2454141E277B243100DFC18E /* GarageDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454141D277B243100DFC18E /* GarageDoor.m */; };
+		24541422277B245F00DFC18E /* GarageDoorOpenCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541421277B245F00DFC18E /* GarageDoorOpenCommand.m */; };
+		24541434277B2C6C00DFC18E /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454142D277B2C6B00DFC18E /* OperationMultiply.m */; };
+		24541435277B2C6C00DFC18E /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454142E277B2C6B00DFC18E /* Context.m */; };
+		24541436277B2C6C00DFC18E /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541431277B2C6C00DFC18E /* OperationAdd.m */; };
+		24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541433277B2C6C00DFC18E /* OperationSubStract.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -97,6 +107,31 @@
 		245413FB277AEE8600DFC18E /* ChPizzaIngredientFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChPizzaIngredientFactory.h; sourceTree = "<group>"; };
 		245413FC277AEE8600DFC18E /* ChPizzaIngredientFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChPizzaIngredientFactory.m; sourceTree = "<group>"; };
 		24541400277AEF9B00DFC18E /* TestFactoryChou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFactoryChou.m; sourceTree = "<group>"; };
+		24541406277B07C300DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24541408277B09E600DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2454140A277B0DA400DFC18E /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		2454140B277B0DC800DFC18E /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		2454140C277B0DC800DFC18E /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		2454140F277B0E1400DFC18E /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		24541410277B0E1400DFC18E /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		24541413277B0EF400DFC18E /* SimpleRemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleRemoteControl.h; sourceTree = "<group>"; };
+		24541414277B0EF400DFC18E /* SimpleRemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRemoteControl.m; sourceTree = "<group>"; };
+		24541418277B22B900DFC18E /* TestRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRemote.m; sourceTree = "<group>"; };
+		2454141C277B243100DFC18E /* GarageDoor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoor.h; sourceTree = "<group>"; };
+		2454141D277B243100DFC18E /* GarageDoor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoor.m; sourceTree = "<group>"; };
+		24541420277B245F00DFC18E /* GarageDoorOpenCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GarageDoorOpenCommand.h; sourceTree = "<group>"; };
+		24541421277B245F00DFC18E /* GarageDoorOpenCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageDoorOpenCommand.m; sourceTree = "<group>"; };
+		24541426277B2AF600DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2454142B277B2C6B00DFC18E /* OperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		2454142C277B2C6B00DFC18E /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		2454142D277B2C6B00DFC18E /* OperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
+		2454142E277B2C6B00DFC18E /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		2454142F277B2C6C00DFC18E /* OperationSubStract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSubStract.h; sourceTree = "<group>"; };
+		24541430277B2C6C00DFC18E /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		24541431277B2C6C00DFC18E /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		24541432277B2C6C00DFC18E /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		24541433277B2C6C00DFC18E /* OperationSubStract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSubStract.m; sourceTree = "<group>"; };
+		2454143E277B2DB500DFC18E /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -235,10 +270,73 @@
 			path = "抽象工厂";
 			sourceTree = "<group>";
 		};
+		24541405277B07A400DFC18E /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24541406277B07C300DFC18E /* README.md */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		24541407277B09D500DFC18E /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24541408277B09E600DFC18E /* README.md */,
+				24541409277B0D7E00DFC18E /* 遥控器 */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		24541409277B0D7E00DFC18E /* 遥控器 */ = {
+			isa = PBXGroup;
+			children = (
+				2454140A277B0DA400DFC18E /* Command.h */,
+				24541413277B0EF400DFC18E /* SimpleRemoteControl.h */,
+				24541414277B0EF400DFC18E /* SimpleRemoteControl.m */,
+				2454140B277B0DC800DFC18E /* Light.h */,
+				2454140C277B0DC800DFC18E /* Light.m */,
+				2454140F277B0E1400DFC18E /* LightOnCommand.h */,
+				24541410277B0E1400DFC18E /* LightOnCommand.m */,
+				2454141C277B243100DFC18E /* GarageDoor.h */,
+				2454141D277B243100DFC18E /* GarageDoor.m */,
+				24541420277B245F00DFC18E /* GarageDoorOpenCommand.h */,
+				24541421277B245F00DFC18E /* GarageDoorOpenCommand.m */,
+				24541418277B22B900DFC18E /* TestRemote.m */,
+			);
+			path = "遥控器";
+			sourceTree = "<group>";
+		};
+		24541425277B2ADD00DFC18E /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24541426277B2AF600DFC18E /* README.md */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		2454142A277B2C5900DFC18E /* 计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				2454142C277B2C6B00DFC18E /* Context.h */,
+				2454142E277B2C6B00DFC18E /* Context.m */,
+				24541432277B2C6C00DFC18E /* OperationAdd.h */,
+				24541431277B2C6C00DFC18E /* OperationAdd.m */,
+				2454142B277B2C6B00DFC18E /* OperationMultiply.h */,
+				2454142D277B2C6B00DFC18E /* OperationMultiply.m */,
+				2454142F277B2C6C00DFC18E /* OperationSubStract.h */,
+				24541433277B2C6C00DFC18E /* OperationSubStract.m */,
+				24541430277B2C6C00DFC18E /* Strategy.h */,
+			);
+			path = "计算器";
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
+				24541425277B2ADD00DFC18E /* 适配器模式 */,
+				24541407277B09D500DFC18E /* 命令模式 */,
+				24541405277B07A400DFC18E /* 单例模式 */,
 				245413AD277AA30300DFC18E /* 工厂模式 */,
 				24BD50872779D892000197BF /* 装饰模式 */,
 				24840BA42779D22300B97C83 /* 策略模式 */,
@@ -277,6 +375,8 @@
 		24840BA42779D22300B97C83 /* 策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				2454143E277B2DB500DFC18E /* image1.png */,
+				2454142A277B2C5900DFC18E /* 计算器 */,
 				24840BE42779D32F00B97C83 /* duck */,
 				24840BF72779D32F00B97C83 /* README.md */,
 				24840C172779D43100B97C83 /* testcelue.m */,
@@ -421,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24541419277B22B900DFC18E /* TestRemote.m in Sources */,
 				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
 				245413B8277AA54800DFC18E /* Pizza.m in Sources */,
 				245413ED277AE65D00DFC18E /* ThinCrustDough.m in Sources */,
@@ -434,9 +535,15 @@
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
 				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
 				24BD50A92779E00B000197BF /* HouseBlend.m in Sources */,
+				24541422277B245F00DFC18E /* GarageDoorOpenCommand.m in Sources */,
+				24541434277B2C6C00DFC18E /* OperationMultiply.m in Sources */,
 				24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */,
+				24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
+				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
+				24541435277B2C6C00DFC18E /* Context.m in Sources */,
+				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
@@ -447,7 +554,10 @@
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
+				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
+				2454140D277B0DC800DFC18E /* Light.m in Sources */,
 				245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */,
+				24541436277B2C6C00DFC18E /* OperationAdd.m in Sources */,
 				24840BFD2779D32F00B97C83 /* MiniDuck.m in Sources */,
 				24BD50AD2779E078000197BF /* Mocha.m in Sources */,
 				24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */,

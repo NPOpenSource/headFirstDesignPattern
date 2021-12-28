@@ -17,6 +17,22 @@ static void beforeMain(void) {
     [duck display];
 }
 
+#import "Context.h"
+#import "OperationAdd.h"
+#import "OperationMultiply.h"
+#import "OperationSubStract.h"
+
+__attribute__((constructor))
+static void testOperationMain(void) {
+    Context * context = [[Context alloc]init];
+    context.strategy = [OperationAdd new];
+    [context calulate];
+    context.strategy = [OperationMultiply new];
+    [context calulate];
+    context.strategy = [OperationSubStract new];
+    [context calulate];
+}
+
 
 
 

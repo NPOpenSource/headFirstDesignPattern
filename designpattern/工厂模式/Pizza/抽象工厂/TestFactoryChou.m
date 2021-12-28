@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "CHPizzaStore.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeMain(void) {
     CHPizzaStore *npstore = [CHPizzaStore new];
     [npstore orderPizza:@"cheese"];
