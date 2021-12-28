@@ -44,7 +44,7 @@
 
 # 简单代码
 
-````
+```
 #import <Foundation/Foundation.h>
 
 @protocol Strategy <NSObject>
@@ -151,8 +151,7 @@
 2018-04-11 15:19:58.573370+0800 行为型设计模式-策略模式[70343:8738232]  第一个数10 第二个数5 计算结果 5
 ```
 
-****
-[源代码地址](https://link.jianshu.com/?t=https%3A%2F%2Fgithub.com%2FNPOpenSource%2FdesignPattern)
+
 
 
 
