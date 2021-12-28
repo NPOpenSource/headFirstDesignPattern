@@ -24,7 +24,7 @@ static void beforeMain(void) {
 #import "SugarDecrator.h"
 #import "MilkFoamDecrator.h"
 #import "MilkPriceDecorator.h"
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeCoffceMain(void) {
     id <Coffce> coffce = [SimpleCoffce new];
     coffce= [[SugarDecrator alloc]initWithCoffce:coffce];

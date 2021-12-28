@@ -41,6 +41,21 @@
 		2454145F277B321700DFC18E /* MilkPriceDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541459277B321700DFC18E /* MilkPriceDecorator.m */; };
 		24541460277B321700DFC18E /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454145A277B321700DFC18E /* Decorator.m */; };
 		24541461277B321700DFC18E /* SimpleCoffce.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454145C277B321700DFC18E /* SimpleCoffce.m */; };
+		2454146B277B35B000DFC18E /* SongFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541469277B35B000DFC18E /* SongFactory.m */; };
+		24541474277B35D300DFC18E /* SongA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454146E277B35D300DFC18E /* SongA.m */; };
+		24541475277B35D300DFC18E /* SongB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541471277B35D300DFC18E /* SongB.m */; };
+		24541476277B35D300DFC18E /* SongC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541473277B35D300DFC18E /* SongC.m */; };
+		2454147A277B35EE00DFC18E /* TestFactoryExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541479277B35EE00DFC18E /* TestFactoryExample.m */; };
+		24541483277B36A300DFC18E /* SongFactoryA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454147F277B36A200DFC18E /* SongFactoryA.m */; };
+		24541484277B36A300DFC18E /* SongFactoryC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541482277B36A300DFC18E /* SongFactoryC.m */; };
+		24541488277B36A800DFC18E /* SongFactoryB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541487277B36A800DFC18E /* SongFactoryB.m */; };
+		2454149C277B36F800DFC18E /* AudioA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454148B277B36F700DFC18E /* AudioA.m */; };
+		2454149D277B36F800DFC18E /* AudioB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454148D277B36F700DFC18E /* AudioB.m */; };
+		2454149E277B36F800DFC18E /* PersionNeedsB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541490277B36F700DFC18E /* PersionNeedsB.m */; };
+		2454149F277B36F800DFC18E /* MicrophoneB.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541497277B36F800DFC18E /* MicrophoneB.m */; };
+		245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541498277B36F800DFC18E /* PersionNeedsC.m */; };
+		245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454149A277B36F800DFC18E /* MicrophoneA.m */; };
+		245414A2277B36F800DFC18E /* PersionNeedsA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454149B277B36F800DFC18E /* PersionNeedsA.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -157,6 +172,43 @@
 		2454145B277B321700DFC18E /* SimpleCoffce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCoffce.h; sourceTree = "<group>"; };
 		2454145C277B321700DFC18E /* SimpleCoffce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCoffce.m; sourceTree = "<group>"; };
 		24541463277B32BC00DFC18E /* 1682758-c4b5970524663587.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-c4b5970524663587.png"; sourceTree = "<group>"; };
+		24541469277B35B000DFC18E /* SongFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongFactory.m; sourceTree = "<group>"; };
+		2454146A277B35B000DFC18E /* SongFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongFactory.h; sourceTree = "<group>"; };
+		2454146D277B35BA00DFC18E /* Song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		2454146E277B35D300DFC18E /* SongA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongA.m; sourceTree = "<group>"; };
+		2454146F277B35D300DFC18E /* SongA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongA.h; sourceTree = "<group>"; };
+		24541470277B35D300DFC18E /* SongC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongC.h; sourceTree = "<group>"; };
+		24541471277B35D300DFC18E /* SongB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongB.m; sourceTree = "<group>"; };
+		24541472277B35D300DFC18E /* SongB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongB.h; sourceTree = "<group>"; };
+		24541473277B35D300DFC18E /* SongC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongC.m; sourceTree = "<group>"; };
+		24541479277B35EE00DFC18E /* TestFactoryExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFactoryExample.m; sourceTree = "<group>"; };
+		2454147E277B369400DFC18E /* MySongFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySongFactory.h; sourceTree = "<group>"; };
+		2454147F277B36A200DFC18E /* SongFactoryA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongFactoryA.m; sourceTree = "<group>"; };
+		24541480277B36A300DFC18E /* SongFactoryC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongFactoryC.h; sourceTree = "<group>"; };
+		24541481277B36A300DFC18E /* SongFactoryA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongFactoryA.h; sourceTree = "<group>"; };
+		24541482277B36A300DFC18E /* SongFactoryC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongFactoryC.m; sourceTree = "<group>"; };
+		24541486277B36A800DFC18E /* SongFactoryB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongFactoryB.h; sourceTree = "<group>"; };
+		24541487277B36A800DFC18E /* SongFactoryB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongFactoryB.m; sourceTree = "<group>"; };
+		2454148B277B36F700DFC18E /* AudioA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioA.m; sourceTree = "<group>"; };
+		2454148C277B36F700DFC18E /* Microphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Microphone.h; sourceTree = "<group>"; };
+		2454148D277B36F700DFC18E /* AudioB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioB.m; sourceTree = "<group>"; };
+		2454148E277B36F700DFC18E /* audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		2454148F277B36F700DFC18E /* MicrophoneB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrophoneB.h; sourceTree = "<group>"; };
+		24541490277B36F700DFC18E /* PersionNeedsB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersionNeedsB.m; sourceTree = "<group>"; };
+		24541491277B36F700DFC18E /* PersionNeedsC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersionNeedsC.h; sourceTree = "<group>"; };
+		24541492277B36F700DFC18E /* PersionNeedsA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersionNeedsA.h; sourceTree = "<group>"; };
+		24541493277B36F700DFC18E /* MicrophoneA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicrophoneA.h; sourceTree = "<group>"; };
+		24541494277B36F800DFC18E /* AudioA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioA.h; sourceTree = "<group>"; };
+		24541495277B36F800DFC18E /* PersionNeedsB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersionNeedsB.h; sourceTree = "<group>"; };
+		24541496277B36F800DFC18E /* PersionNeeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersionNeeds.h; sourceTree = "<group>"; };
+		24541497277B36F800DFC18E /* MicrophoneB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrophoneB.m; sourceTree = "<group>"; };
+		24541498277B36F800DFC18E /* PersionNeedsC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersionNeedsC.m; sourceTree = "<group>"; };
+		24541499277B36F800DFC18E /* AudioB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioB.h; sourceTree = "<group>"; };
+		2454149A277B36F800DFC18E /* MicrophoneA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicrophoneA.m; sourceTree = "<group>"; };
+		2454149B277B36F800DFC18E /* PersionNeedsA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersionNeedsA.m; sourceTree = "<group>"; };
+		245414A4277B378E00DFC18E /* 1682758-a145bc0eb9f2712a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-a145bc0eb9f2712a.png"; sourceTree = "<group>"; };
+		245414A5277B37B800DFC18E /* 1682758-fa2029ff9851139a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-fa2029ff9851139a.png"; sourceTree = "<group>"; };
+		245414A6277B380D00DFC18E /* 1682758-c306cda1b2923386.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-c306cda1b2923386.png"; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -223,6 +275,7 @@
 		245413AD277AA30300DFC18E /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				24541467277B355E00DFC18E /* example */,
 				245413AE277AA33100DFC18E /* README.md */,
 				245413B0277AA4F700DFC18E /* Pizza */,
 			);
@@ -384,6 +437,74 @@
 				24541455277B321600DFC18E /* SugarDecrator.m */,
 			);
 			path = Coffce;
+			sourceTree = "<group>";
+		};
+		24541467277B355E00DFC18E /* example */ = {
+			isa = PBXGroup;
+			children = (
+				2454148A277B36EA00DFC18E /* 抽象工厂 */,
+				2454147D277B368200DFC18E /* 工厂模式 */,
+				24541468277B358300DFC18E /* 简单工厂 */,
+				24541479277B35EE00DFC18E /* TestFactoryExample.m */,
+				245414A4277B378E00DFC18E /* 1682758-a145bc0eb9f2712a.png */,
+				245414A5277B37B800DFC18E /* 1682758-fa2029ff9851139a.png */,
+				245414A6277B380D00DFC18E /* 1682758-c306cda1b2923386.png */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		24541468277B358300DFC18E /* 简单工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				2454146F277B35D300DFC18E /* SongA.h */,
+				2454146E277B35D300DFC18E /* SongA.m */,
+				24541472277B35D300DFC18E /* SongB.h */,
+				24541471277B35D300DFC18E /* SongB.m */,
+				24541470277B35D300DFC18E /* SongC.h */,
+				24541473277B35D300DFC18E /* SongC.m */,
+				2454146D277B35BA00DFC18E /* Song.h */,
+				2454146A277B35B000DFC18E /* SongFactory.h */,
+				24541469277B35B000DFC18E /* SongFactory.m */,
+			);
+			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		2454147D277B368200DFC18E /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24541486277B36A800DFC18E /* SongFactoryB.h */,
+				24541487277B36A800DFC18E /* SongFactoryB.m */,
+				2454147E277B369400DFC18E /* MySongFactory.h */,
+				24541481277B36A300DFC18E /* SongFactoryA.h */,
+				2454147F277B36A200DFC18E /* SongFactoryA.m */,
+				24541480277B36A300DFC18E /* SongFactoryC.h */,
+				24541482277B36A300DFC18E /* SongFactoryC.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		2454148A277B36EA00DFC18E /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				2454148E277B36F700DFC18E /* audio.h */,
+				24541494277B36F800DFC18E /* AudioA.h */,
+				2454148B277B36F700DFC18E /* AudioA.m */,
+				24541499277B36F800DFC18E /* AudioB.h */,
+				2454148D277B36F700DFC18E /* AudioB.m */,
+				2454148C277B36F700DFC18E /* Microphone.h */,
+				24541493277B36F700DFC18E /* MicrophoneA.h */,
+				2454149A277B36F800DFC18E /* MicrophoneA.m */,
+				2454148F277B36F700DFC18E /* MicrophoneB.h */,
+				24541497277B36F800DFC18E /* MicrophoneB.m */,
+				24541496277B36F800DFC18E /* PersionNeeds.h */,
+				24541492277B36F700DFC18E /* PersionNeedsA.h */,
+				2454149B277B36F800DFC18E /* PersionNeedsA.m */,
+				24541495277B36F800DFC18E /* PersionNeedsB.h */,
+				24541490277B36F700DFC18E /* PersionNeedsB.m */,
+				24541491277B36F700DFC18E /* PersionNeedsC.h */,
+				24541498277B36F800DFC18E /* PersionNeedsC.m */,
+			);
+			path = "抽象工厂";
 			sourceTree = "<group>";
 		};
 		24840B8F2779D17A00B97C83 = {
@@ -580,6 +701,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24541474277B35D300DFC18E /* SongA.m in Sources */,
 				24541449277B2F2900DFC18E /* User.m in Sources */,
 				24541419277B22B900DFC18E /* TestRemote.m in Sources */,
 				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
@@ -588,13 +710,17 @@
 				2454145D277B321700DFC18E /* MilkFoamDecrator.m in Sources */,
 				245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */,
 				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
+				245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
 				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
+				24541483277B36A300DFC18E /* SongFactoryA.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
+				245414A2277B36F800DFC18E /* PersionNeedsA.m in Sources */,
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
 				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
+				2454149E277B36F800DFC18E /* PersionNeedsB.m in Sources */,
 				24BD50A92779E00B000197BF /* HouseBlend.m in Sources */,
 				24541422277B245F00DFC18E /* GarageDoorOpenCommand.m in Sources */,
 				24541461277B321700DFC18E /* SimpleCoffce.m in Sources */,
@@ -604,35 +730,45 @@
 				2454145E277B321700DFC18E /* SugarDecrator.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
 				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
+				24541488277B36A800DFC18E /* SongFactoryB.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
 				2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */,
 				24541435277B2C6C00DFC18E /* Context.m in Sources */,
 				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
+				245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */,
+				2454146B277B35B000DFC18E /* SongFactory.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
+				2454149D277B36F800DFC18E /* AudioB.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
 				24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */,
 				245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */,
+				24541484277B36A300DFC18E /* SongFactoryC.m in Sources */,
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				2454145F277B321700DFC18E /* MilkPriceDecorator.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
+				2454149F277B36F800DFC18E /* MicrophoneB.m in Sources */,
 				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
 				2454140D277B0DC800DFC18E /* Light.m in Sources */,
 				245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */,
+				2454149C277B36F800DFC18E /* AudioA.m in Sources */,
 				24541436277B2C6C00DFC18E /* OperationAdd.m in Sources */,
 				24840BFD2779D32F00B97C83 /* MiniDuck.m in Sources */,
 				24BD50AD2779E078000197BF /* Mocha.m in Sources */,
 				24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */,
+				24541476277B35D300DFC18E /* SongC.m in Sources */,
 				24541401277AEF9B00DFC18E /* TestFactoryChou.m in Sources */,
 				245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */,
 				24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */,
+				2454147A277B35EE00DFC18E /* TestFactoryExample.m in Sources */,
 				24BD50A52779DF9E000197BF /* Espresso.m in Sources */,
 				245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */,
 				245413D7277AAECA00DFC18E /* PizzaStore.m in Sources */,
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
+				24541475277B35D300DFC18E /* SongB.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,
 				245413C0277AA5CF00DFC18E /* PepperoniPizza.m in Sources */,
 				24541460277B321700DFC18E /* Decorator.m in Sources */,
