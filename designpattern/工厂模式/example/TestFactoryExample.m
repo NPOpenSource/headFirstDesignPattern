@@ -41,7 +41,7 @@ static void beforeFactory(void) {
 #import "PersionNeedsB.h"
 #import "PersionNeedsC.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeabstractFactory(void) {
     id<PersionNeeds> persionNeeds = [PersionNeedsA new];
     id<audio> audio = [persionNeeds getAudio];

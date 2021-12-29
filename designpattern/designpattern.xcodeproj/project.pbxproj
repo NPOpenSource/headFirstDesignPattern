@@ -56,6 +56,14 @@
 		245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541498277B36F800DFC18E /* PersionNeedsC.m */; };
 		245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454149A277B36F800DFC18E /* MicrophoneA.m */; };
 		245414A2277B36F800DFC18E /* PersionNeedsA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454149B277B36F800DFC18E /* PersionNeedsA.m */; };
+		245414BC277C363000DFC18E /* OpenTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414B6277C363000DFC18E /* OpenTV.m */; };
+		245414BD277C363000DFC18E /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414B8277C363000DFC18E /* Remote.m */; };
+		245414BE277C363000DFC18E /* CloseTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414B9277C363000DFC18E /* CloseTV.m */; };
+		245414C4277C368500DFC18E /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414C2277C368500DFC18E /* TV.m */; };
+		245414D5277C3AFB00DFC18E /* APower.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414CC277C3AFB00DFC18E /* APower.m */; };
+		245414D6277C3AFB00DFC18E /* CPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414CE277C3AFB00DFC18E /* CPower.m */; };
+		245414D7277C3AFB00DFC18E /* CObjectPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414D4277C3AFB00DFC18E /* CObjectPower.m */; };
+		245414DB277C3B3B00DFC18E /* TestPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414DA277C3B3B00DFC18E /* TestPower.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -213,6 +221,25 @@
 		245414AC277C33FA00DFC18E /* 1682758-2a2e96ed144ce1cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-2a2e96ed144ce1cd.png"; sourceTree = "<group>"; };
 		245414AD277C341C00DFC18E /* 1682758-43bc769e189fa47e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-43bc769e189fa47e.png"; sourceTree = "<group>"; };
 		245414AE277C343F00DFC18E /* 1682758-eedc619fdfb8b9a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-eedc619fdfb8b9a1.png"; sourceTree = "<group>"; };
+		245414AF277C359A00DFC18E /* 1682758-1dbbca9c133ea5db.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-1dbbca9c133ea5db.png"; sourceTree = "<group>"; };
+		245414B0277C35C200DFC18E /* 1682758-7097aa2f79777bc6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-7097aa2f79777bc6.png"; sourceTree = "<group>"; };
+		245414B5277C363000DFC18E /* Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remote.h; sourceTree = "<group>"; };
+		245414B6277C363000DFC18E /* OpenTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenTV.m; sourceTree = "<group>"; };
+		245414B8277C363000DFC18E /* Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remote.m; sourceTree = "<group>"; };
+		245414B9277C363000DFC18E /* CloseTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseTV.m; sourceTree = "<group>"; };
+		245414BA277C363000DFC18E /* OpenTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenTV.h; sourceTree = "<group>"; };
+		245414BB277C363000DFC18E /* CloseTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseTV.h; sourceTree = "<group>"; };
+		245414C2277C368500DFC18E /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		245414C3277C368500DFC18E /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		245414CB277C3AFB00DFC18E /* AmericaPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericaPower.h; sourceTree = "<group>"; };
+		245414CC277C3AFB00DFC18E /* APower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APower.m; sourceTree = "<group>"; };
+		245414CE277C3AFB00DFC18E /* CPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPower.m; sourceTree = "<group>"; };
+		245414CF277C3AFB00DFC18E /* ChinaPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChinaPower.h; sourceTree = "<group>"; };
+		245414D0277C3AFB00DFC18E /* CPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPower.h; sourceTree = "<group>"; };
+		245414D1277C3AFB00DFC18E /* APower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APower.h; sourceTree = "<group>"; };
+		245414D3277C3AFB00DFC18E /* CObjectPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObjectPower.h; sourceTree = "<group>"; };
+		245414D4277C3AFB00DFC18E /* CObjectPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CObjectPower.m; sourceTree = "<group>"; };
+		245414DA277C3B3B00DFC18E /* TestPower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPower.m; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -371,6 +398,9 @@
 				245414AD277C341C00DFC18E /* 1682758-43bc769e189fa47e.png */,
 				245414AC277C33FA00DFC18E /* 1682758-2a2e96ed144ce1cd.png */,
 				245414AB277C33CF00DFC18E /* 1682758-0ddfc31c4023645b.png */,
+				24541418277B22B900DFC18E /* TestRemote.m */,
+				2454140A277B0DA400DFC18E /* Command.h */,
+				245414B1277C35FB00DFC18E /* remote */,
 				24541409277B0D7E00DFC18E /* 遥控器 */,
 			);
 			path = "命令模式";
@@ -379,7 +409,6 @@
 		24541409277B0D7E00DFC18E /* 遥控器 */ = {
 			isa = PBXGroup;
 			children = (
-				2454140A277B0DA400DFC18E /* Command.h */,
 				24541413277B0EF400DFC18E /* SimpleRemoteControl.h */,
 				24541414277B0EF400DFC18E /* SimpleRemoteControl.m */,
 				2454140B277B0DC800DFC18E /* Light.h */,
@@ -390,7 +419,6 @@
 				2454141D277B243100DFC18E /* GarageDoor.m */,
 				24541420277B245F00DFC18E /* GarageDoorOpenCommand.h */,
 				24541421277B245F00DFC18E /* GarageDoorOpenCommand.m */,
-				24541418277B22B900DFC18E /* TestRemote.m */,
 			);
 			path = "遥控器";
 			sourceTree = "<group>";
@@ -399,6 +427,10 @@
 			isa = PBXGroup;
 			children = (
 				24541426277B2AF600DFC18E /* README.md */,
+				245414CA277C3AE700DFC18E /* Power */,
+				245414B0277C35C200DFC18E /* 1682758-7097aa2f79777bc6.png */,
+				245414AF277C359A00DFC18E /* 1682758-1dbbca9c133ea5db.png */,
+				245414DA277C3B3B00DFC18E /* TestPower.m */,
 			);
 			path = "适配器模式";
 			sourceTree = "<group>";
@@ -513,6 +545,52 @@
 				24541498277B36F800DFC18E /* PersionNeedsC.m */,
 			);
 			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		245414B1277C35FB00DFC18E /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				245414C3277C368500DFC18E /* TV.h */,
+				245414C2277C368500DFC18E /* TV.m */,
+				245414BB277C363000DFC18E /* CloseTV.h */,
+				245414B9277C363000DFC18E /* CloseTV.m */,
+				245414BA277C363000DFC18E /* OpenTV.h */,
+				245414B6277C363000DFC18E /* OpenTV.m */,
+				245414B5277C363000DFC18E /* Remote.h */,
+				245414B8277C363000DFC18E /* Remote.m */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		245414CA277C3AE700DFC18E /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				245414CB277C3AFB00DFC18E /* AmericaPower.h */,
+				245414D1277C3AFB00DFC18E /* APower.h */,
+				245414CC277C3AFB00DFC18E /* APower.m */,
+				245414D2277C3AFB00DFC18E /* 对象适配器 */,
+				245414CD277C3AFB00DFC18E /* 类适配器 */,
+			);
+			path = Power;
+			sourceTree = "<group>";
+		};
+		245414CD277C3AFB00DFC18E /* 类适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				245414CE277C3AFB00DFC18E /* CPower.m */,
+				245414CF277C3AFB00DFC18E /* ChinaPower.h */,
+				245414D0277C3AFB00DFC18E /* CPower.h */,
+			);
+			path = "类适配器";
+			sourceTree = "<group>";
+		};
+		245414D2277C3AFB00DFC18E /* 对象适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				245414D3277C3AFB00DFC18E /* CObjectPower.h */,
+				245414D4277C3AFB00DFC18E /* CObjectPower.m */,
+			);
+			path = "对象适配器";
 			sourceTree = "<group>";
 		};
 		24840B8F2779D17A00B97C83 = {
@@ -718,11 +796,13 @@
 				2454145D277B321700DFC18E /* MilkFoamDecrator.m in Sources */,
 				245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */,
 				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
+				245414D5277C3AFB00DFC18E /* APower.m in Sources */,
 				245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
 				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
+				245414BE277C363000DFC18E /* CloseTV.m in Sources */,
 				24541483277B36A300DFC18E /* SongFactoryA.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
 				245414A2277B36F800DFC18E /* PersionNeedsA.m in Sources */,
@@ -742,13 +822,17 @@
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
 				2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */,
 				24541435277B2C6C00DFC18E /* Context.m in Sources */,
+				245414C4277C368500DFC18E /* TV.m in Sources */,
 				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
 				245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */,
 				2454146B277B35B000DFC18E /* SongFactory.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
+				245414BC277C363000DFC18E /* OpenTV.m in Sources */,
 				2454149D277B36F800DFC18E /* AudioB.m in Sources */,
+				245414DB277C3B3B00DFC18E /* TestPower.m in Sources */,
+				245414BD277C363000DFC18E /* Remote.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
 				24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */,
 				245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */,
@@ -768,12 +852,14 @@
 				24BD50AD2779E078000197BF /* Mocha.m in Sources */,
 				24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */,
 				24541476277B35D300DFC18E /* SongC.m in Sources */,
+				245414D7277C3AFB00DFC18E /* CObjectPower.m in Sources */,
 				24541401277AEF9B00DFC18E /* TestFactoryChou.m in Sources */,
 				245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */,
 				24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */,
 				2454147A277B35EE00DFC18E /* TestFactoryExample.m in Sources */,
 				24BD50A52779DF9E000197BF /* Espresso.m in Sources */,
 				245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */,
+				245414D6277C3AFB00DFC18E /* CPower.m in Sources */,
 				245413D7277AAECA00DFC18E /* PizzaStore.m in Sources */,
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
 				24541475277B35D300DFC18E /* SongB.m in Sources */,

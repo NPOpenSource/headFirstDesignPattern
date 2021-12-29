@@ -25,3 +25,21 @@ static void beforeMain(void) {
     
 }
 
+#import "OpenTV.h"
+#import "CloseTV.h"
+#import "Remote.h"
+
+//__attribute__((constructor))
+static void beforeRemoteMain(void) {
+    TV * tv= [TV new];
+    Remote * remote = [Remote new];
+    OpenTV *openTV = [OpenTV new];
+    openTV.tv =tv;
+    CloseTV * closeTV = [CloseTV new];
+    closeTV.tv = tv;
+    [remote setCommand:openTV];
+    [remote invokeCommand];
+    [remote setCommand:closeTV];
+    [remote invokeCommand];
+    
+}

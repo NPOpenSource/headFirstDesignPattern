@@ -149,7 +149,7 @@
 ***
 
 
-[借鉴博客]（http://www.runoob.com/design-pattern/command-pattern.html）
+[借鉴博客](http://www.runoob.com/design-pattern/command-pattern.html)
 
 
 
