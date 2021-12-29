@@ -70,129 +70,101 @@
 
 ## 简单代码
 
-> #import <Foundation/Foundation.h>
->
-> @protocol Song -(void)sing;
->
-> @end
+```objective-c
+#import <Foundation/Foundation.h>
+@protocol Song -(void)sing;
+@end
+```
 
-> #import "Song.h"
->
-> @interface SongA : 
->
-> NSObject
->
-> @end
+```objc
+#import "Song.h"
+@interface SongA : 
+NSObject
+@end
+```
 
-> #import "SongA.h"
->
-> @implementation SongA
->
-> -(void)sing{
->
->     NSLog(@"sing 《天天喜欢你》");
->
-> }
->
-> @end
+```objc
+#import "SongA.h"
+@implementation SongA
+-(void)sing{
+    NSLog(@"sing 《天天喜欢你》");
+}
+@end
+```
 
-> #import "Song.h"
->
-> @interface SongB : NSObject
->
-> @end
+```objc
+#import "Song.h"
+@interface SongB : NSObject
+@end
+```
 
-> #import "SongB.h"
->
-> @implementation SongB
->
-> -(void)sing{
->
->     NSLog(@"sing 《十年》");
->
-> }
->
-> @end
+```objc
+#import "SongB.h"
+@implementation SongB
+-(void)sing{
+    NSLog(@"sing 《十年》");
+}
+@end
+```
 
-> #import "Song.h"
->
-> @interface SongC : NSObject
->
-> @end
+```objc
+#import "Song.h"
+@interface SongC : NSObject
+@end
+```
 
-> @implementation SongC
->
-> -(void)sing{
->
->     NSLog(@"sing 《明天就要嫁给你》");
->
-> }
->
-> @end
+```objc
+@implementation SongC
+-(void)sing{
+    NSLog(@"sing 《明天就要嫁给你》");
+}
+@end
+```
 
-> #import "SongA.h"
->
-> #import "SongB.h"
->
-> #import "SongC.h"
->
-> #import "Song.h"
->
-> typedef enum {
->
-> SongAType,
->
-> SongBType,
->
-> SongCType}SongType;
->
-> @interface SongFactory : NSObject
->
-> -(id)getSongType:(SongType)songType;
->
-> @end
+```objc
+#import "SongA.h"
+#import "SongB.h"
+#import "SongC.h"
+#import "Song.h"
+typedef enum {
+  SongAType,
+  SongBType,
+  SongCType
+}SongType;
+@interface SongFactory : NSObject
+-(id)getSongType:(SongType)songType;
+@end
+```
 
-> #import "SongFactory.h"
->
-> @implementation SongFactory
->
-> -(id)getSongType:(SongType)songType{
->
->     if (songType==SongAType) {
->
->         return [SongA  new];
->
->     }else if (songType==SongBType){
->
->         return [SongB new];
->
->     }else if (songType == SongCType){
->
->         return [SongC new];
->
->     }else{
->
->         return nil;
->
->     }
->
->     return nil;
->
-> }
->
-> @end
+```OBJC
+#import "SongFactory.h"
+@implementation SongFactory
+-(id)getSongType:(SongType)songType{
+    if (songType==SongAType) {
+        return [SongA  new];
+    }else if (songType==SongBType){
+        return [SongB new];
+    }else if (songType == SongCType){
+        return [SongC new];
+    }else{
+        return nil;
+    }
+    return nil;
+}
+@end
+```
 
-> SongFactory * factory=[[SongFactory alloc]init]; id song = [factory getSongType:SongAType];
->
->     [song sing];
->
->     song = [factory getSongType:SongBType];
->
->     [song sing];
->
->     song = [factory getSongType:SongCType];
->
->     [song sing];
+```objc
+		SongFactory * factory=[[SongFactory alloc]init];
+		id song = [factory getSongType:SongAType];
+   	[song sing];
+    song = [factory getSongType:SongBType];
+    [song sing];
+    song = [factory getSongType:SongCType];
+    [song sing];
+```
+
+
 
 测试结果很简单
 
@@ -240,89 +212,76 @@
 
 歌曲abc 的代码没有任何变化
 
-> #import "Song.h"
->
-> @protocol MySongFactory<NSObject>
->
-> -(id)getSong;
->
-> @end
+```OBJC
+#import "Song.h"
+@protocol MySongFactory<NSObject>
+-(id)getSong;
+@end
+```
 
-> #import "MySongFactory.h"@interface SongFactoryA : NSObject<MySongFactory>
->
-> @end
+```objc
+#import "MySongFactory.h"
+@interface SongFactoryA : NSObject<MySongFactory>
 
-> #import "SongA.h"
->
-> @implementation SongFactoryA
->
-> -(id)getSong{
->
->     return [SongA new];
->
-> }
->
-> @end
+@end
+```
 
-> #import "MySongFactory.h"
->
-> @interface SongFactoryB : NSObject<MySongFactory>
->
-> @end
+```objective-c
+#import "SongA.h"
+@implementation SongFactoryA
+-(id)getSong{
+    return [SongA new];
+}
+@end
+```
 
-> #import "SongFactoryB.h"
->
-> #import "SongB.h"
->
-> @implementation SongFactoryB
->
-> -(id<Song>)getSong{
->
->     return [SongB new];
->
-> }
->
-> @end
+```objc
+#import "MySongFactory.h"
+@interface SongFactoryB : NSObject<MySongFactory>
 
-> #import "MySongFactory.h"
->
-> @interface SongFactoryC : NSObject<MySongFactory>
->
-> @end
+@end
+```
 
-> #import "SongFactoryC.h"
->
-> #import "SongC.h"
->
-> @implementation SongFactoryC
->
-> -(id<Song>)getSong{
->
->     return [SongC new];
->
-> }
->
-> @end
+```objc
+#import "SongFactoryB.h"
+#import "SongB.h"
+@implementation SongFactoryB
+-(id<Song>)getSong{
+    return [SongB new];
+}
+@end
+```
+
+```objc
+#import "MySongFactory.h"
+@interface SongFactoryC : NSObject<MySongFactory>
+
+@end
+```
+
+```objc
+#import "SongFactoryC.h"
+#import "SongC.h"
+@implementation SongFactoryC
+-(id<Song>)getSong{
+    return [SongC new];
+}
+@end
+```
 
 测试代码
 
-> id<MySongFactory> factory=[SongFactoryA new];
->
-> id<Song> song = [factory getSong];
->
->     [song sing];
->
->     factory=[SongFactoryB new];
->
->     song = [factory getSong];
->
->     [song sing];
->
->     factory=[SongFactoryC new];
->
->     song = [factory getSong];
->
->     [song sing];
+```objc
+id<MySongFactory> factory=[SongFactoryA new];
+id<Song> song = [factory getSong];
+    [song sing];
+    factory=[SongFactoryB new];
+    song = [factory getSong];
+    [song sing];
+    factory=[SongFactoryC new];
+    song = [factory getSong];
+    [song sing];
+```
 
 测试结果
 
@@ -346,8 +305,8 @@
 
 需要Creator和相应的子类作为factory method的载体，如果应用模型确实需要creator和子类存在，则很好；否则的话，需要增加一个类层次。(不过说这个缺点好像有点吹毛求疵了)
 
+[借鉴博客](https://www.cnblogs.com/toutou/p/4899388.html)
 
-# [借鉴博客](https://www.cnblogs.com/toutou/p/4899388.html)
 
 
 # 抽象工厂模式
@@ -382,177 +341,149 @@
 
 产品audio
 
-> @protocol <NSObject>
->
-> audio-(void)audio;
->
-> @end
+```objc
+@protocol audio <NSObject>
+  -(void)audio;
+@end
+```
 
-> #import "audio.h"
->
-> @interface AudioA : NSObject<audio>
->
-> @end
+```objc
+#import "audio.h"
+@interface AudioA : NSObject<audio>
+@end
+```
 
-> #import "AudioA.h"
->
-> @implementation AudioA
->
-> -(void)audio{
->
->     NSLog(@"audioA audio");
->
-> }
->
-> @end
+```OBJC
+#import "AudioA.h"
+@implementation AudioA
+-(void)audio{
+    NSLog(@"audioA audio");
+}
+@end
+```
 
-> #import "audio.h"
->
-> @interface AudioB : NSObject<audio>
->
-> @end
+```OBJC
+#import "audio.h"
+@interface AudioB : NSObject<audio>
+@end
+```
 
-> #import "AudioB.h"
->
-> @implementation AudioB
->
-> -(void)audio{
->
->     NSLog(@"audioB audio");
->
-> }
->
-> @end
+```objc
+#import "AudioB.h"
+@implementation AudioB
+-(void)audio{
+    NSLog(@"audioB audio");
+}
+@end
+```
 
 产品Microphone
 
-> @protocol Microphone<NSObject>
->
-> -(void)song;
->
-> @end
+```OBJC
+@protocol Microphone<NSObject>
+-(void)song;
+@end
+```
 
-> #import "Microphone.h"
->
-> @interface MicrophoneA : NSObject<Microphone>
->
-> @end
+```objc
+#import "Microphone.h"
+@interface MicrophoneA : NSObject<Microphone>
 
-> #import "MicrophoneA.h"
->
-> @implementation MicrophoneA
->
-> -(void)song{
->
->     NSLog(@"microphoneA song");
->
-> }
->
-> @end
+@end
+```
 
-> #import "Microphone.h"
->
-> @interface MicrophoneB : NSObject<Microphone>
->
-> @end
+```OBJC
+#import "MicrophoneA.h"
+@implementation MicrophoneA
+-(void)song{
+    NSLog(@"microphoneA song");
+}
+@end
+```
 
-> #import "MicrophoneB.h"
->
-> @implementation MicrophoneB
->
-> -(void)song{
->
->     NSLog(@"microphoneB song");
->
-> }
->
-> @end
+```OBJC
+#import "Microphone.h"
+@interface MicrophoneB : NSObject<Microphone>
+
+@end
+```
+
+```OBJC
+#import "MicrophoneB.h"
+@implementation MicrophoneB
+-(void)song{
+    NSLog(@"microphoneB song");
+}
+@end
+  
+```
 
 工厂个人需求persionNeeds
 
-> #import "Microphone.h"
->
-> #import "audio.h"
->
-> @protocol PersionNeeds<NSObject>
->
-> -(id<Microphone>)getMicrophone;
->
-> -(id<audio>)getAudio;
->
-> @end
+```OBJC
+#import "Microphone.h"
+#import "audio.h"
+@protocol PersionNeeds<NSObject>
+-(id<Microphone>)getMicrophone;
+-(id<audio>)getAudio;
+@end
+```
 
-> #import "PersionNeeds.h"
->
-> @interface PersionNeedsA : NSObject<PersionNeeds>
->
-> @end
+```OBJC
+#import "PersionNeeds.h"
+@interface PersionNeedsA : NSObject<PersionNeeds>
 
-> @implementation PersionNeedsA
->
-> -(id<audio>)getAudio{   
->
-> return [AudioA new];
->
-> }
->
-> -(id<Microphone>)getMicrophone{
->
->     return [MicrophoneA new];
->
-> }
->
-> @end
+@end
+```
 
-> #import "PersionNeeds.h"
->
-> @interface PersionNeedsB : NSObject<PersionNeeds>
->
-> @end
+```objc
+@implementation PersionNeedsA
+-(id<audio>)getAudio{   
+return [AudioA new];
+}
+-(id<Microphone>)getMicrophone{
+    return [MicrophoneA new];
+}
+@end
+```
 
-> #import "PersionNeedsB.h"
->
-> #import "AudioB.h"
->
-> #import "MicrophoneB.h"
->
-> @implementation PersionNeedsB
->
-> -(id<audio>)getAudio{ 
->
->   return [AudioB new];
->
-> }
->
-> -(id<Microphone>)getMicrophone{
->
->     return [MicrophoneB new];
->
-> }
->
-> @end
+```objc
+#import "PersionNeeds.h"
+@interface PersionNeedsB : NSObject<PersionNeeds>
+
+@end
+```
+
+```objc
+#import "PersionNeedsB.h"
+#import "AudioB.h"
+#import "MicrophoneB.h"
+@implementation PersionNeedsB
+-(id<audio>)getAudio{ 
+  return [AudioB new];
+}
+-(id<Microphone>)getMicrophone{
+    return [MicrophoneB new];
+}
+@end
+```
 
 测试类
 
-> id<PersionNeeds> persionNeeds = [PersionNeedsA new];
->
-> id<audio> audio = [persionNeeds getAudio]; 
->
->   id<Micriphone> microphone = [persionNeeds getMicrophone];
->
->     [audio audio];
->
->     [microphone song];
->
->     persionNeeds = [PersionNeedsB new];
->
->     audio = [persionNeeds getAudio];
->
->     microphone = [persionNeeds getMicrophone];
->
->     [audio audio];
->
->     [microphone song];
+```objc
+		id<PersionNeeds> persionNeeds = [PersionNeedsA new];
+		id<audio> audio = [persionNeeds getAudio]; 
+  	id<Micriphone> microphone = [persionNeeds getMicrophone];
+    [audio audio];
+    [microphone song];
+    persionNeeds = [PersionNeedsB new];
+    audio = [persionNeeds getAudio];
+    microphone = [persionNeeds getMicrophone];
+    [audio audio];
+    [microphone song];
+```
+
+
 
 测试结果是
 
@@ -586,11 +517,5 @@
 
 抽象工厂的产品比简单工厂模式多，所以，就产生了自由组合，demo中，PersionNeedsA 生成的是具体产品是AudioA 和MicrophoneA ,persionNeedB 生成的AudioB 和MicriphoneB。我们也可以组装一个工厂PersionNeedsC生产AudioA和MicriophoneB。
 
-具体代码在demo中
-
-[源代码地址](https://github.com/NPOpenSource/designPattern)
-
 [借鉴博客](https://www.cnblogs.com/toutou/p/4899388.html)
 
-下一篇博客地址
-创建性设计模式-建造者模式
