@@ -209,6 +209,10 @@
 		245414A4277B378E00DFC18E /* 1682758-a145bc0eb9f2712a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-a145bc0eb9f2712a.png"; sourceTree = "<group>"; };
 		245414A5277B37B800DFC18E /* 1682758-fa2029ff9851139a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-fa2029ff9851139a.png"; sourceTree = "<group>"; };
 		245414A6277B380D00DFC18E /* 1682758-c306cda1b2923386.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-c306cda1b2923386.png"; sourceTree = "<group>"; };
+		245414AB277C33CF00DFC18E /* 1682758-0ddfc31c4023645b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-0ddfc31c4023645b.png"; sourceTree = "<group>"; };
+		245414AC277C33FA00DFC18E /* 1682758-2a2e96ed144ce1cd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-2a2e96ed144ce1cd.png"; sourceTree = "<group>"; };
+		245414AD277C341C00DFC18E /* 1682758-43bc769e189fa47e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-43bc769e189fa47e.png"; sourceTree = "<group>"; };
+		245414AE277C343F00DFC18E /* 1682758-eedc619fdfb8b9a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-eedc619fdfb8b9a1.png"; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -363,6 +367,10 @@
 			isa = PBXGroup;
 			children = (
 				24541408277B09E600DFC18E /* README.md */,
+				245414AE277C343F00DFC18E /* 1682758-eedc619fdfb8b9a1.png */,
+				245414AD277C341C00DFC18E /* 1682758-43bc769e189fa47e.png */,
+				245414AC277C33FA00DFC18E /* 1682758-2a2e96ed144ce1cd.png */,
+				245414AB277C33CF00DFC18E /* 1682758-0ddfc31c4023645b.png */,
 				24541409277B0D7E00DFC18E /* 遥控器 */,
 			);
 			path = "命令模式";
