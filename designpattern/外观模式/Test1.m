@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "Patient.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeMain(void) {
     Receptionist * receptionist= [Receptionist new];
     Patient * patients= [[Patient alloc]init];

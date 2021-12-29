@@ -72,6 +72,9 @@
 		24541502277C54E100DFC18E /* Receptionist.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414FE277C54E100DFC18E /* Receptionist.m */; };
 		24541503277C54E100DFC18E /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414FF277C54E100DFC18E /* Patient.m */; };
 		24541506277C554D00DFC18E /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541505277C554D00DFC18E /* Test1.m */; };
+		24541514277C5ABC00DFC18E /* AMDComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454150F277C5ABC00DFC18E /* AMDComputer.m */; };
+		24541515277C5ABC00DFC18E /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541512277C5ABC00DFC18E /* Computer.m */; };
+		24541518277C5AD500DFC18E /* TestComputerMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541517277C5AD500DFC18E /* TestComputerMain.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -267,6 +270,14 @@
 		245414FE277C54E100DFC18E /* Receptionist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receptionist.m; sourceTree = "<group>"; };
 		245414FF277C54E100DFC18E /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		24541505277C554D00DFC18E /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		24541509277C576C00DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2454150A277C57D900DFC18E /* 1682758-fb041e060a935496.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-fb041e060a935496.png"; sourceTree = "<group>"; };
+		2454150F277C5ABC00DFC18E /* AMDComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDComputer.m; sourceTree = "<group>"; };
+		24541510277C5ABC00DFC18E /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		24541511277C5ABC00DFC18E /* PlayGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGame.h; sourceTree = "<group>"; };
+		24541512277C5ABC00DFC18E /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		24541513277C5ABC00DFC18E /* AMDComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDComputer.h; sourceTree = "<group>"; };
+		24541517277C5AD500DFC18E /* TestComputerMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestComputerMain.m; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -662,10 +673,34 @@
 			path = "医院";
 			sourceTree = "<group>";
 		};
+		24541508277C573700DFC18E /* 模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24541509277C576C00DFC18E /* README.md */,
+				2454150A277C57D900DFC18E /* 1682758-fb041e060a935496.png */,
+				2454150E277C5AAB00DFC18E /* computer */,
+				24541517277C5AD500DFC18E /* TestComputerMain.m */,
+			);
+			path = "模板方法模式";
+			sourceTree = "<group>";
+		};
+		2454150E277C5AAB00DFC18E /* computer */ = {
+			isa = PBXGroup;
+			children = (
+				24541513277C5ABC00DFC18E /* AMDComputer.h */,
+				2454150F277C5ABC00DFC18E /* AMDComputer.m */,
+				24541510277C5ABC00DFC18E /* Computer.h */,
+				24541512277C5ABC00DFC18E /* Computer.m */,
+				24541511277C5ABC00DFC18E /* PlayGame.h */,
+			);
+			path = computer;
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
+				24541508277C573700DFC18E /* 模板方法模式 */,
 				245414EE277C531000DFC18E /* 外观模式 */,
 				24541425277B2ADD00DFC18E /* 适配器模式 */,
 				24541407277B09D500DFC18E /* 命令模式 */,
@@ -870,6 +905,7 @@
 				245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */,
 				245414EC277C3EA100DFC18E /* TurkeyAdapter.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
+				24541515277C5ABC00DFC18E /* Computer.m in Sources */,
 				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
@@ -922,6 +958,7 @@
 				245414E7277C3E5200DFC18E /* WildTurkey.m in Sources */,
 				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
 				2454140D277B0DC800DFC18E /* Light.m in Sources */,
+				24541514277C5ABC00DFC18E /* AMDComputer.m in Sources */,
 				245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */,
 				2454149C277B36F800DFC18E /* AudioA.m in Sources */,
 				24541436277B2C6C00DFC18E /* OperationAdd.m in Sources */,
@@ -934,6 +971,7 @@
 				245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */,
 				24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */,
 				2454147A277B35EE00DFC18E /* TestFactoryExample.m in Sources */,
+				24541518277C5AD500DFC18E /* TestComputerMain.m in Sources */,
 				24BD50A52779DF9E000197BF /* Espresso.m in Sources */,
 				245413FD277AEE8600DFC18E /* ChPizzaIngredientFactory.m in Sources */,
 				245414D6277C3AFB00DFC18E /* CPower.m in Sources */,
