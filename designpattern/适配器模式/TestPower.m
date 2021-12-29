@@ -27,7 +27,7 @@ static void testDuck(id<DuckA> duck) {
 }
 
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void beforeDuckMain(void) {
     MallardDuck *duck =  [MallardDuck new];
     testDuck(duck);

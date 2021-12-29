@@ -67,6 +67,11 @@
 		245414E2277C3DE200DFC18E /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414E1277C3DE200DFC18E /* MallardDuck.m */; };
 		245414E7277C3E5200DFC18E /* WildTurkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414E6277C3E5200DFC18E /* WildTurkey.m */; };
 		245414EC277C3EA100DFC18E /* TurkeyAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414EB277C3EA100DFC18E /* TurkeyAdapter.m */; };
+		24541500277C54E100DFC18E /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414F8277C54E000DFC18E /* Register.m */; };
+		24541501277C54E100DFC18E /* Medicine.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414FB277C54E100DFC18E /* Medicine.m */; };
+		24541502277C54E100DFC18E /* Receptionist.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414FE277C54E100DFC18E /* Receptionist.m */; };
+		24541503277C54E100DFC18E /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 245414FF277C54E100DFC18E /* Patient.m */; };
+		24541506277C554D00DFC18E /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24541505277C554D00DFC18E /* Test1.m */; };
 		24840B9C2779D17A00B97C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840B9B2779D17A00B97C83 /* main.m */; };
 		24840BF82779D32F00B97C83 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE52779D32F00B97C83 /* Quack.m */; };
 		24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840BE72779D32F00B97C83 /* FlyNoWay.m */; };
@@ -251,6 +256,17 @@
 		245414E6277C3E5200DFC18E /* WildTurkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildTurkey.m; sourceTree = "<group>"; };
 		245414EA277C3EA100DFC18E /* TurkeyAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurkeyAdapter.h; sourceTree = "<group>"; };
 		245414EB277C3EA100DFC18E /* TurkeyAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurkeyAdapter.m; sourceTree = "<group>"; };
+		245414EF277C532B00DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		245414F7277C54A200DFC18E /* 1682758-83eab76cfa9a3772.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1682758-83eab76cfa9a3772.png"; sourceTree = "<group>"; };
+		245414F8277C54E000DFC18E /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		245414F9277C54E000DFC18E /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		245414FA277C54E100DFC18E /* Medicine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medicine.h; sourceTree = "<group>"; };
+		245414FB277C54E100DFC18E /* Medicine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medicine.m; sourceTree = "<group>"; };
+		245414FC277C54E100DFC18E /* Receptionist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receptionist.h; sourceTree = "<group>"; };
+		245414FD277C54E100DFC18E /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		245414FE277C54E100DFC18E /* Receptionist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receptionist.m; sourceTree = "<group>"; };
+		245414FF277C54E100DFC18E /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		24541505277C554D00DFC18E /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
 		24840B982779D17A00B97C83 /* designpattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = designpattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		24840B9B2779D17A00B97C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24840BE52779D32F00B97C83 /* Quack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
@@ -620,10 +636,37 @@
 			path = Duck;
 			sourceTree = "<group>";
 		};
+		245414EE277C531000DFC18E /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				245414EF277C532B00DFC18E /* README.md */,
+				245414F0277C543100DFC18E /* 医院 */,
+				245414F7277C54A200DFC18E /* 1682758-83eab76cfa9a3772.png */,
+				24541505277C554D00DFC18E /* Test1.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		245414F0277C543100DFC18E /* 医院 */ = {
+			isa = PBXGroup;
+			children = (
+				245414FA277C54E100DFC18E /* Medicine.h */,
+				245414FB277C54E100DFC18E /* Medicine.m */,
+				245414F9277C54E000DFC18E /* Patient.h */,
+				245414FF277C54E100DFC18E /* Patient.m */,
+				245414FC277C54E100DFC18E /* Receptionist.h */,
+				245414FE277C54E100DFC18E /* Receptionist.m */,
+				245414FD277C54E100DFC18E /* Register.h */,
+				245414F8277C54E000DFC18E /* Register.m */,
+			);
+			path = "医院";
+			sourceTree = "<group>";
+		};
 		24840B8F2779D17A00B97C83 = {
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
+				245414EE277C531000DFC18E /* 外观模式 */,
 				24541425277B2ADD00DFC18E /* 适配器模式 */,
 				24541407277B09D500DFC18E /* 命令模式 */,
 				24541405277B07A400DFC18E /* 单例模式 */,
@@ -833,6 +876,7 @@
 				245414BE277C363000DFC18E /* CloseTV.m in Sources */,
 				24541483277B36A300DFC18E /* SongFactoryA.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
+				24541501277C54E100DFC18E /* Medicine.m in Sources */,
 				245414A2277B36F800DFC18E /* PersionNeedsA.m in Sources */,
 				24840BFE2779D32F00B97C83 /* Duck.m in Sources */,
 				24BD509A2779DF0C000197BF /* Beverage.m in Sources */,
@@ -845,6 +889,7 @@
 				24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */,
 				2454145E277B321700DFC18E /* SugarDecrator.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
+				24541502277C54E100DFC18E /* Receptionist.m in Sources */,
 				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
 				24541488277B36A800DFC18E /* SongFactoryB.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
@@ -857,8 +902,10 @@
 				245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */,
 				2454146B277B35B000DFC18E /* SongFactory.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
+				24541506277C554D00DFC18E /* Test1.m in Sources */,
 				245414BC277C363000DFC18E /* OpenTV.m in Sources */,
 				2454149D277B36F800DFC18E /* AudioB.m in Sources */,
+				24541500277C54E100DFC18E /* Register.m in Sources */,
 				245414DB277C3B3B00DFC18E /* TestPower.m in Sources */,
 				245414BD277C363000DFC18E /* Remote.m in Sources */,
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
@@ -870,6 +917,7 @@
 				24840BFA2779D32F00B97C83 /* FlyyWithWings.m in Sources */,
 				2454145F277B321700DFC18E /* MilkPriceDecorator.m in Sources */,
 				24840BF82779D32F00B97C83 /* Quack.m in Sources */,
+				24541503277C54E100DFC18E /* Patient.m in Sources */,
 				2454149F277B36F800DFC18E /* MicrophoneB.m in Sources */,
 				245414E7277C3E5200DFC18E /* WildTurkey.m in Sources */,
 				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
