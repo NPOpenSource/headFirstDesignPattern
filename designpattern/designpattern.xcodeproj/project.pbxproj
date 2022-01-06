@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2411CC0A2785B79300582BAC /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC092785B79300582BAC /* Persion.m */; };
+		2411CC0F2785B7F400582BAC /* IteratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC0E2785B7F400582BAC /* IteratorTest.m */; };
+		2411CC152785B84F00582BAC /* AppleIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC132785B84F00582BAC /* AppleIterator.m */; };
+		2411CC1A2785B93C00582BAC /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC192785B93C00582BAC /* MenuItem.m */; };
+		2411CC1F2785BA4800582BAC /* PancakeHouseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC1E2785BA4800582BAC /* PancakeHouseMenu.m */; };
+		2411CC232785BBE100582BAC /* DinerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC222785BBE100582BAC /* DinerMenu.m */; };
+		2411CC2A2785C00700582BAC /* DingerMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC292785C00700582BAC /* DingerMenuIterator.m */; };
+		2411CC2E27867BB800582BAC /* PancakeHouseMenuIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CC2D27867BB800582BAC /* PancakeHouseMenuIterator.m */; };
 		245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413B2277AA52000DFC18E /* SimplePizzaFactory.m */; };
 		245413B8277AA54800DFC18E /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413B7277AA54800DFC18E /* Pizza.m */; };
 		245413BC277AA5BC00DFC18E /* CheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 245413BB277AA5BC00DFC18E /* CheesePizza.m */; };
@@ -112,6 +120,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2411CC022785B5FB00582BAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2411CC082785B79300582BAC /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		2411CC092785B79300582BAC /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
+		2411CC0C2785B7C400582BAC /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		2411CC0E2785B7F400582BAC /* IteratorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IteratorTest.m; sourceTree = "<group>"; };
+		2411CC132785B84F00582BAC /* AppleIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleIterator.m; sourceTree = "<group>"; };
+		2411CC142785B84F00582BAC /* AppleIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleIterator.h; sourceTree = "<group>"; };
+		2411CC182785B93C00582BAC /* MenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		2411CC192785B93C00582BAC /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		2411CC1D2785BA4800582BAC /* PancakeHouseMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenu.h; sourceTree = "<group>"; };
+		2411CC1E2785BA4800582BAC /* PancakeHouseMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseMenu.m; sourceTree = "<group>"; };
+		2411CC212785BBE100582BAC /* DinerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DinerMenu.h; sourceTree = "<group>"; };
+		2411CC222785BBE100582BAC /* DinerMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinerMenu.m; sourceTree = "<group>"; };
+		2411CC252785BF7300582BAC /* MenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuIterator.h; sourceTree = "<group>"; };
+		2411CC282785C00700582BAC /* DingerMenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DingerMenuIterator.h; sourceTree = "<group>"; };
+		2411CC292785C00700582BAC /* DingerMenuIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DingerMenuIterator.m; sourceTree = "<group>"; };
+		2411CC2C27867BB800582BAC /* PancakeHouseMenuIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PancakeHouseMenuIterator.h; sourceTree = "<group>"; };
+		2411CC2D27867BB800582BAC /* PancakeHouseMenuIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PancakeHouseMenuIterator.m; sourceTree = "<group>"; };
 		245413AE277AA33100DFC18E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		245413B1277AA52000DFC18E /* SimplePizzaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePizzaFactory.h; sourceTree = "<group>"; };
 		245413B2277AA52000DFC18E /* SimplePizzaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePizzaFactory.m; sourceTree = "<group>"; };
@@ -341,6 +367,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2411CC012785B5CC00582BAC /* 迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				2411CC022785B5FB00582BAC /* README.md */,
+				2411CC172785B92900582BAC /* Meum */,
+				2411CC062785B77C00582BAC /* apple */,
+				2411CC0E2785B7F400582BAC /* IteratorTest.m */,
+			);
+			path = "迭代器模式";
+			sourceTree = "<group>";
+		};
+		2411CC062785B77C00582BAC /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				2411CC142785B84F00582BAC /* AppleIterator.h */,
+				2411CC132785B84F00582BAC /* AppleIterator.m */,
+				2411CC0C2785B7C400582BAC /* Iterator.h */,
+				2411CC082785B79300582BAC /* Persion.h */,
+				2411CC092785B79300582BAC /* Persion.m */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
+		2411CC172785B92900582BAC /* Meum */ = {
+			isa = PBXGroup;
+			children = (
+				2411CC182785B93C00582BAC /* MenuItem.h */,
+				2411CC192785B93C00582BAC /* MenuItem.m */,
+				2411CC1D2785BA4800582BAC /* PancakeHouseMenu.h */,
+				2411CC1E2785BA4800582BAC /* PancakeHouseMenu.m */,
+				2411CC212785BBE100582BAC /* DinerMenu.h */,
+				2411CC222785BBE100582BAC /* DinerMenu.m */,
+				2411CC252785BF7300582BAC /* MenuIterator.h */,
+				2411CC282785C00700582BAC /* DingerMenuIterator.h */,
+				2411CC292785C00700582BAC /* DingerMenuIterator.m */,
+				2411CC2C27867BB800582BAC /* PancakeHouseMenuIterator.h */,
+				2411CC2D27867BB800582BAC /* PancakeHouseMenuIterator.m */,
+			);
+			path = Meum;
+			sourceTree = "<group>";
+		};
 		245413AD277AA30300DFC18E /* 工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -700,7 +767,7 @@
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
-				24541508277C573700DFC18E /* 模板方法模式 */,
+				2411CC012785B5CC00582BAC /* 迭代器模式 */,
 				245414EE277C531000DFC18E /* 外观模式 */,
 				24541425277B2ADD00DFC18E /* 适配器模式 */,
 				24541407277B09D500DFC18E /* 命令模式 */,
@@ -709,6 +776,7 @@
 				24BD50872779D892000197BF /* 装饰模式 */,
 				24840BA32779D1B400B97C83 /* 观察者模式 */,
 				24840BA42779D22300B97C83 /* 策略模式 */,
+				24541508277C573700DFC18E /* 模板方法模式 */,
 				24840B9A2779D17A00B97C83 /* designpattern */,
 				24840B992779D17A00B97C83 /* Products */,
 			);
@@ -893,6 +961,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24541474277B35D300DFC18E /* SongA.m in Sources */,
+				2411CC152785B84F00582BAC /* AppleIterator.m in Sources */,
 				24541449277B2F2900DFC18E /* User.m in Sources */,
 				24541419277B22B900DFC18E /* TestRemote.m in Sources */,
 				245413DF277AB02900DFC18E /* TestFactory.m in Sources */,
@@ -904,11 +973,14 @@
 				245414D5277C3AFB00DFC18E /* APower.m in Sources */,
 				245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */,
 				245414EC277C3EA100DFC18E /* TurkeyAdapter.m in Sources */,
+				2411CC232785BBE100582BAC /* DinerMenu.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
 				24541515277C5ABC00DFC18E /* Computer.m in Sources */,
 				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
+				2411CC2A2785C00700582BAC /* DingerMenuIterator.m in Sources */,
+				2411CC1F2785BA4800582BAC /* PancakeHouseMenu.m in Sources */,
 				245414BE277C363000DFC18E /* CloseTV.m in Sources */,
 				24541483277B36A300DFC18E /* SongFactoryA.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
@@ -923,6 +995,7 @@
 				24541434277B2C6C00DFC18E /* OperationMultiply.m in Sources */,
 				24840C132779D33900B97C83 /* CurrentConditionsDisplay.m in Sources */,
 				24541437277B2C6C00DFC18E /* OperationSubStract.m in Sources */,
+				2411CC0F2785B7F400582BAC /* IteratorTest.m in Sources */,
 				2454145E277B321700DFC18E /* SugarDecrator.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
 				24541502277C54E100DFC18E /* Receptionist.m in Sources */,
@@ -935,6 +1008,7 @@
 				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
+				2411CC1A2785B93C00582BAC /* MenuItem.m in Sources */,
 				245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */,
 				2454146B277B35B000DFC18E /* SongFactory.m in Sources */,
 				24840BFC2779D32F00B97C83 /* Squeak.m in Sources */,
@@ -947,6 +1021,7 @@
 				24840C122779D33900B97C83 /* CurrentConditionsDisplayNew.m in Sources */,
 				24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */,
 				245413B3277AA52000DFC18E /* SimplePizzaFactory.m in Sources */,
+				2411CC2E27867BB800582BAC /* PancakeHouseMenuIterator.m in Sources */,
 				24541484277B36A300DFC18E /* SongFactoryC.m in Sources */,
 				24840B9C2779D17A00B97C83 /* main.m in Sources */,
 				24840C182779D43100B97C83 /* testcelue.m in Sources */,
@@ -981,6 +1056,7 @@
 				245414E2277C3DE200DFC18E /* MallardDuck.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,
 				245413C0277AA5CF00DFC18E /* PepperoniPizza.m in Sources */,
+				2411CC0A2785B79300582BAC /* Persion.m in Sources */,
 				24541460277B321700DFC18E /* Decorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
