@@ -113,6 +113,17 @@
 		24840C142779D33900B97C83 /* WeatherDataNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C0E2779D33900B97C83 /* WeatherDataNew.m */; };
 		24840C182779D43100B97C83 /* testcelue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C172779D43100B97C83 /* testcelue.m */; };
 		24840C1C2779D4F600B97C83 /* testObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 24840C1B2779D4F600B97C83 /* testObservable.m */; };
+		249BC98B278814BD00EEB5FD /* Celling.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC985278814BD00EEB5FD /* Celling.m */; };
+		249BC98C278814BD00EEB5FD /* ShipmentState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC988278814BD00EEB5FD /* ShipmentState.m */; };
+		249BC98D278814BD00EEB5FD /* ChoosingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC989278814BD00EEB5FD /* ChoosingState.m */; };
+		249BC98E278814BD00EEB5FD /* BuyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC98A278814BD00EEB5FD /* BuyState.m */; };
+		249BC992278814D800EEB5FD /* TestStateMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC991278814D800EEB5FD /* TestStateMode.m */; };
+		249BC999278818A800EEB5FD /* GumbalMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC998278818A800EEB5FD /* GumbalMachine.m */; };
+		249BC99F27881F1E00EEB5FD /* SoldOutState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC99E27881F1E00EEB5FD /* SoldOutState.m */; };
+		249BC9A32788208600EEB5FD /* NoQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC9A22788208600EEB5FD /* NoQuarterState.m */; };
+		249BC9A72788209200EEB5FD /* HasQuarterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC9A62788209200EEB5FD /* HasQuarterState.m */; };
+		249BC9AB2788209A00EEB5FD /* SoldState.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BC9AA2788209A00EEB5FD /* SoldState.m */; };
+		24A9852D27882A290079F295 /* WinnerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A9852C27882A290079F295 /* WinnerState.m */; };
 		24BD508A2779D89E000197BF /* testZhuangshi.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50892779D89E000197BF /* testZhuangshi.m */; };
 		24BD509A2779DF0C000197BF /* Beverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD50992779DF0C000197BF /* Beverage.m */; };
 		24BD509F2779DF6F000197BF /* CondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BD509E2779DF6F000197BF /* CondimentDecorator.m */; };
@@ -385,6 +396,31 @@
 		24840C0F2779D33900B97C83 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		24840C172779D43100B97C83 /* testcelue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testcelue.m; sourceTree = "<group>"; };
 		24840C1B2779D4F600B97C83 /* testObservable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testObservable.m; sourceTree = "<group>"; };
+		249BC97B2788140A00EEB5FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		249BC97D2788147C00EEB5FD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		249BC982278814BD00EEB5FD /* Celling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celling.h; sourceTree = "<group>"; };
+		249BC983278814BD00EEB5FD /* BuyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyState.h; sourceTree = "<group>"; };
+		249BC984278814BD00EEB5FD /* ShipmentState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipmentState.h; sourceTree = "<group>"; };
+		249BC985278814BD00EEB5FD /* Celling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celling.m; sourceTree = "<group>"; };
+		249BC986278814BD00EEB5FD /* ChoosingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosingState.h; sourceTree = "<group>"; };
+		249BC987278814BD00EEB5FD /* CellingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellingState.h; sourceTree = "<group>"; };
+		249BC988278814BD00EEB5FD /* ShipmentState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipmentState.m; sourceTree = "<group>"; };
+		249BC989278814BD00EEB5FD /* ChoosingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosingState.m; sourceTree = "<group>"; };
+		249BC98A278814BD00EEB5FD /* BuyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyState.m; sourceTree = "<group>"; };
+		249BC991278814D800EEB5FD /* TestStateMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStateMode.m; sourceTree = "<group>"; };
+		249BC997278818A800EEB5FD /* GumbalMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GumbalMachine.h; sourceTree = "<group>"; };
+		249BC998278818A800EEB5FD /* GumbalMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GumbalMachine.m; sourceTree = "<group>"; };
+		249BC99C27881EF800EEB5FD /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		249BC99D27881F1E00EEB5FD /* SoldOutState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldOutState.h; sourceTree = "<group>"; };
+		249BC99E27881F1E00EEB5FD /* SoldOutState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldOutState.m; sourceTree = "<group>"; };
+		249BC9A12788208600EEB5FD /* NoQuarterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoQuarterState.h; sourceTree = "<group>"; };
+		249BC9A22788208600EEB5FD /* NoQuarterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoQuarterState.m; sourceTree = "<group>"; };
+		249BC9A52788209200EEB5FD /* HasQuarterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HasQuarterState.h; sourceTree = "<group>"; };
+		249BC9A62788209200EEB5FD /* HasQuarterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HasQuarterState.m; sourceTree = "<group>"; };
+		249BC9A92788209A00EEB5FD /* SoldState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoldState.h; sourceTree = "<group>"; };
+		249BC9AA2788209A00EEB5FD /* SoldState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldState.m; sourceTree = "<group>"; };
+		24A9852B27882A290079F295 /* WinnerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinnerState.h; sourceTree = "<group>"; };
+		24A9852C27882A290079F295 /* WinnerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinnerState.m; sourceTree = "<group>"; };
 		24BD50892779D89E000197BF /* testZhuangshi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testZhuangshi.m; sourceTree = "<group>"; };
 		24BD50932779D8E0000197BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		24BD50942779D8EA000197BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -872,6 +908,7 @@
 			isa = PBXGroup;
 			children = (
 				24BD50942779D8EA000197BF /* README.md */,
+				249BC97A278813AC00EEB5FD /* 状态模式 */,
 				2411CC312786862600582BAC /* 组合模式 */,
 				2411CC012785B5CC00582BAC /* 迭代器模式 */,
 				245414EE277C531000DFC18E /* 外观模式 */,
@@ -970,6 +1007,54 @@
 				24840C0F2779D33900B97C83 /* Subject.h */,
 			);
 			path = "气象站";
+			sourceTree = "<group>";
+		};
+		249BC97A278813AC00EEB5FD /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				249BC97B2788140A00EEB5FD /* README.md */,
+				249BC9962788184E00EEB5FD /* machine */,
+				249BC981278814AE00EEB5FD /* celling */,
+				249BC97D2788147C00EEB5FD /* assets */,
+				249BC991278814D800EEB5FD /* TestStateMode.m */,
+			);
+			path = "状态模式";
+			sourceTree = "<group>";
+		};
+		249BC981278814AE00EEB5FD /* celling */ = {
+			isa = PBXGroup;
+			children = (
+				249BC983278814BD00EEB5FD /* BuyState.h */,
+				249BC98A278814BD00EEB5FD /* BuyState.m */,
+				249BC982278814BD00EEB5FD /* Celling.h */,
+				249BC985278814BD00EEB5FD /* Celling.m */,
+				249BC987278814BD00EEB5FD /* CellingState.h */,
+				249BC986278814BD00EEB5FD /* ChoosingState.h */,
+				249BC989278814BD00EEB5FD /* ChoosingState.m */,
+				249BC984278814BD00EEB5FD /* ShipmentState.h */,
+				249BC988278814BD00EEB5FD /* ShipmentState.m */,
+			);
+			path = celling;
+			sourceTree = "<group>";
+		};
+		249BC9962788184E00EEB5FD /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				249BC997278818A800EEB5FD /* GumbalMachine.h */,
+				249BC998278818A800EEB5FD /* GumbalMachine.m */,
+				249BC99C27881EF800EEB5FD /* State.h */,
+				249BC99D27881F1E00EEB5FD /* SoldOutState.h */,
+				249BC99E27881F1E00EEB5FD /* SoldOutState.m */,
+				249BC9A12788208600EEB5FD /* NoQuarterState.h */,
+				249BC9A22788208600EEB5FD /* NoQuarterState.m */,
+				249BC9A52788209200EEB5FD /* HasQuarterState.h */,
+				249BC9A62788209200EEB5FD /* HasQuarterState.m */,
+				249BC9A92788209A00EEB5FD /* SoldState.h */,
+				249BC9AA2788209A00EEB5FD /* SoldState.m */,
+				24A9852B27882A290079F295 /* WinnerState.h */,
+				24A9852C27882A290079F295 /* WinnerState.m */,
+			);
+			path = machine;
 			sourceTree = "<group>";
 		};
 		24BD50872779D892000197BF /* 装饰模式 */ = {
@@ -1078,17 +1163,22 @@
 				245413F5277AE9BA00DFC18E /* CheesePizzaC.m in Sources */,
 				2411CC672786D38600582BAC /* MenuItemNew.m in Sources */,
 				24840C1C2779D4F600B97C83 /* testObservable.m in Sources */,
+				249BC98B278814BD00EEB5FD /* Celling.m in Sources */,
+				24A9852D27882A290079F295 /* WinnerState.m in Sources */,
 				245414D5277C3AFB00DFC18E /* APower.m in Sources */,
 				245414A1277B36F800DFC18E /* MicrophoneA.m in Sources */,
 				245414EC277C3EA100DFC18E /* TurkeyAdapter.m in Sources */,
 				2411CC232785BBE100582BAC /* DinerMenu.m in Sources */,
 				245413CF277AACD000DFC18E /* NYStyleCheesePizza.m in Sources */,
 				24541515277C5ABC00DFC18E /* Computer.m in Sources */,
+				249BC9AB2788209A00EEB5FD /* SoldState.m in Sources */,
 				245413DB277AAF9500DFC18E /* NYPizzaStore.m in Sources */,
 				24840C102779D33900B97C83 /* WeatherData.m in Sources */,
 				245413CA277AA68800DFC18E /* SimplePizzaStore.m in Sources */,
 				2411CC2A2785C00700582BAC /* DingerMenuIterator.m in Sources */,
+				249BC98C278814BD00EEB5FD /* ShipmentState.m in Sources */,
 				2411CC1F2785BA4800582BAC /* PancakeHouseMenu.m in Sources */,
+				249BC992278814D800EEB5FD /* TestStateMode.m in Sources */,
 				245414BE277C363000DFC18E /* CloseTV.m in Sources */,
 				24541483277B36A300DFC18E /* SongFactoryA.m in Sources */,
 				24840BFF2779D32F00B97C83 /* ModelDuck.m in Sources */,
@@ -1108,16 +1198,19 @@
 				2454145E277B321700DFC18E /* SugarDecrator.m in Sources */,
 				2411CC3E2786883800582BAC /* ComponentSafe.m in Sources */,
 				245413D3277AAD4A00DFC18E /* ChicagoStleCheesePizza.m in Sources */,
+				249BC9A32788208600EEB5FD /* NoQuarterState.m in Sources */,
 				24541502277C54E100DFC18E /* Receptionist.m in Sources */,
 				24541411277B0E1400DFC18E /* LightOnCommand.m in Sources */,
 				24541488277B36A800DFC18E /* SongFactoryB.m in Sources */,
 				245413F9277AEE3400DFC18E /* CHPizzaStore.m in Sources */,
 				2454144A277B2F2900DFC18E /* WeChatServer.m in Sources */,
+				249BC9A72788209200EEB5FD /* HasQuarterState.m in Sources */,
 				24541435277B2C6C00DFC18E /* Context.m in Sources */,
 				245414C4277C368500DFC18E /* TV.m in Sources */,
 				2454141E277B243100DFC18E /* GarageDoor.m in Sources */,
 				24840BF92779D32F00B97C83 /* FlyNoWay.m in Sources */,
 				245413F1277AE6D100DFC18E /* MarinaraSouce.m in Sources */,
+				249BC98E278814BD00EEB5FD /* BuyState.m in Sources */,
 				2411CC1A2785B93C00582BAC /* MenuItem.m in Sources */,
 				245414A0277B36F800DFC18E /* PersionNeedsC.m in Sources */,
 				2454146B277B35B000DFC18E /* SongFactory.m in Sources */,
@@ -1145,6 +1238,7 @@
 				2454149F277B36F800DFC18E /* MicrophoneB.m in Sources */,
 				245414E7277C3E5200DFC18E /* WildTurkey.m in Sources */,
 				24541415277B0EF400DFC18E /* SimpleRemoteControl.m in Sources */,
+				249BC99F27881F1E00EEB5FD /* SoldOutState.m in Sources */,
 				2454140D277B0DC800DFC18E /* Light.m in Sources */,
 				24541514277C5ABC00DFC18E /* AMDComputer.m in Sources */,
 				245413E4277AB0F200DFC18E /* ChicagoPizzaStore.m in Sources */,
@@ -1171,7 +1265,9 @@
 				2411CC6B2786D4D600582BAC /* Menu.m in Sources */,
 				245413D7277AAECA00DFC18E /* PizzaStore.m in Sources */,
 				2411CC622786D29E00582BAC /* MenuComponent.m in Sources */,
+				249BC999278818A800EEB5FD /* GumbalMachine.m in Sources */,
 				24840C112779D33900B97C83 /* Observerable.m in Sources */,
+				249BC98D278814BD00EEB5FD /* ChoosingState.m in Sources */,
 				24541475277B35D300DFC18E /* SongB.m in Sources */,
 				245414E2277C3DE200DFC18E /* MallardDuck.m in Sources */,
 				24840BFB2779D32F00B97C83 /* MuteQuack.m in Sources */,

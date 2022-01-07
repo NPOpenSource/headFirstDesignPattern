@@ -59,7 +59,11 @@
 
 * [模板方法模式](./designpattern/模板方法模式)
 
-* [模板方法模式](./designpattern/迭代器模式)
+* [迭代器模式](./designpattern/迭代器模式)
+
+* [组合模式](./designpattern/迭代器模式)
+
+* [状态模式](./designpattern/状态模式)
 
 # 总结
 

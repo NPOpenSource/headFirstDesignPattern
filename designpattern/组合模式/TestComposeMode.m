@@ -10,7 +10,7 @@
 #import "MenuItemNew.h"
 #import "Waitress.h"
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void testMenuMain(void) {
     MenuComponent *pancakeHouseMenuu = [[Menu alloc]initWithName:@"pancake house menu" andDes:@"breadkfast"];
     MenuComponent *cafeMenu = [[Menu alloc]initWithName:@"cafe menu" andDes:@"Dinner"];
