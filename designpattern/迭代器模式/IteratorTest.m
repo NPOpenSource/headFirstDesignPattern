@@ -11,7 +11,7 @@ static void testAppleIteratorMain(void) {
     };
 }
 
-__attribute__((constructor))
+//__attribute__((constructor))
 static void testMenuIteratorMain(void) {
     DinerMenu *per=  [DinerMenu new];
     id<MenuIterator> iterator = [per createIterator];
