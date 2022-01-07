@@ -11,7 +11,7 @@
 
 @interface SoldOutState ()
 
-@property (nonatomic, strong) GumbalMachine *machine;
+@property (nonatomic, weak) GumbalMachine *machine;
 
 @end
 
